@@ -14,8 +14,7 @@ req = requests.get(url)
 req.raise_for_status()
 soup = bs4.BeautifulSoup(req.text)
 
-for link in soup.find_all('a', href=True):
-		if re.search("Maternity Services Monthly Statistics, England.", link.text) is not None:
-			maternity_hyplink.append(link['href'])
-			print("Collecting Hyperlink: %s" %link.text)
-			print()
+for link in soup.find_all('h3'):
+	if link.text == 'Browse Wine':
+		wine = link.find_next_sibling('ul')
+		for i in wine:
