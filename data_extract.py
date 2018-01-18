@@ -61,4 +61,11 @@ for wine in wine_ur:
     req = requests.get(wine)
     req.raise_for_status()
     wine_soup = bs4.BeautifulSoup(req.text)
-    
+    prices = []
+    strip_string = "MajesticDataLayer.page.addPageName("+'"PLP");\n      MajesticDataLayer.product.addSearchResultData(['
+    for script in soup.find_all('script'):
+        if re.search('MajesticDataLayer.', script.text) is not None:
+            prices.append(script.text)
+    price = prices[1]
+    price = price.strip(strip_text)
+    #next trick is to convert string into dict
