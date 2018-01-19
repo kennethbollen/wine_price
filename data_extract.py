@@ -85,8 +85,13 @@ for wine in wine_url:
             a = int(line.text)
             num_pages.append(a)
         except:
-            print('cannot convert non int')
-    last_page = max(num_pages)
+            print()
+    #some pages will only have one page and the max function won't work, this is a error handle for that        
+    try:        
+        last_page = max(num_pages)
+    except:
+        last_page = 1
+    #loop through all the web pages    
     for i in range(last_page):
         sub_url = wine + '?pageNum=%s&pageSize=12' % str(i)
         sub_req = requests.get(sub_url)
