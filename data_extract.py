@@ -108,4 +108,4 @@ for wine in wine_url:
         for k, v in a.items():
             wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']}
  
-next_page = soup2.find('link', rel='next')['href']
+#next_page = soup2.find('link', rel='next')['href']
