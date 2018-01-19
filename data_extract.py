@@ -13,6 +13,7 @@ wine_url = []
 country_url = []
 grape_url = []
 regions_url = []
+split_wines = []
 wine_prices = {}
 true = 1
 false = 0
@@ -77,35 +78,51 @@ for wine in wine_url:
     req = requests.get(wine)
     req.raise_for_status()
     wine_soup = bs4.BeautifulSoup(req.text)
-    #create a prices list to help extract unneeded html from the wine data
-    prices = []
-    #html contains additional json script that needs to be stripped to extract relevant data
-    strip_text = "MajesticDataLayer.page.addPageName("+'"PLP");\n      MajesticDataLayer.product.addSearchResultData(['
-    print('searching for wine data...')
+    #count how many web pages to loop
+    num_pages = []
+    for line in wine_soup.find_all('a', {'class': 'button button--small'}):
+        try:
+            a = int(line.text)
+            num_pages.append(a)
+        except:
+            print('cannot convert non int')
+    last_page = max(num_pages)
+    for i in range(last_page):
+        sub_url = wine + '?pageNum=%s&pageSize=12' % str(i)
+        sub_req = requests.get(sub_url)
+        sub_req.raise_for_status()
+        sub_soup = bs4.BeautifulSoup(sub_req.text)
+        #html contains additional json script that needs to be stripped to extract relevant data
+        strip_text = "MajesticDataLayer.page.addPageName("+'"PLP");\n      MajesticDataLayer.product.addSearchResultData(['
+        print('searching for wine data...')
+        print()
+        for script in soup.find_all('script'):
+            prices = []
+            #search the html for the script that contains the wine data
+            if re.search('MajesticDataLayer.', script.text) is not None:
+                prices.append(script.text)
+        #relevant data will be contained in price[1], need to remove other part of the script
+        prices = prices[1]
+        #strip off additional json code from data
+        prices = price.strip(strip_text)
+        prices = price.strip('],')
+        #breakdown product data into individual datasets to allow it to be processed as a dict
+        print('breaking down wine data into individual data sets...')
+        print()
+        prices = prices.split(',{')
+        print('Creating wine list with prices...')
+        print()
+        for x in range(len(prices)):
+            if x == 0:
+                split_wines.append(prices[x])
+            else:
+                split_wines.append('{' + prices[x])
+   
+#convert each element of the list into one dict with relevant data (product name and price) 
+for wine_str in split_wines:
+    print('Converting wine list into dict...')
     print()
-    for script in soup.find_all('script'):
-        #search the html for the script that contains the wine data
-        if re.search('MajesticDataLayer.', script.text) is not None:
-            prices.append(script.text)
-    #relevant data will be contained in price[1], need to remove other part of the script
-    price = prices[1]
-    #strip off additional json code from data
-    price = price.strip(strip_text)
-    price = price.strip('],')
-    #breakdown product data into individual datasets to allow it to be processed as a dict
-    print('breaking down wine data into individual data sets...')
-    print()
-    price = price.split(',{')
-    split_wines = []
-    for x in range(len(price)):
-        if x == 0:
-            split_wines.append(price[x])
-        else:
-            split_wines.append('{' + price[x])
-    #convert each element of the list into one dict with relevant data (product name and price) 
-    for wine in split_wines:
-        a = json.loads(wine)
-        for k, v in a.items():
-            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']}
- 
-#next_page = soup2.find('link', rel='next')['href']
+    a = json.loads(wine_str)
+    for k, v in a.items():
+        wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']}
+   
