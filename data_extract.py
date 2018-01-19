@@ -104,8 +104,8 @@ for wine in wine_url:
         #relevant data will be contained in price[1], need to remove other part of the script
         prices = prices[1]
         #strip off additional json code from data
-        prices = price.strip(strip_text)
-        prices = price.strip('],')
+        prices = prices.strip(strip_text)
+        prices = prices.strip('],')
         #breakdown product data into individual datasets to allow it to be processed as a dict
         print('breaking down wine data into individual data sets...')
         print()
