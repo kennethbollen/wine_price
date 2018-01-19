@@ -127,7 +127,9 @@ for wine in wine_url:
 for wine_str in split_wines:
     print('Converting wine list into dict...')
     print()
-    a = json.loads(wine_str)
-    for k, v in a.items():
-        wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']}
-   
+    try:
+        a = json.loads(wine_str)
+        for k, v in a.items():
+            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']}
+   except:
+    print('No values...')
