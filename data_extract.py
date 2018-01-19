@@ -131,5 +131,5 @@ for wine_str in split_wines:
         a = json.loads(wine_str)
         for k, v in a.items():
             wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']}
-   except:
+    except:
         print('No values...')
