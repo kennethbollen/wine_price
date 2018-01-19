@@ -92,12 +92,12 @@ for wine in wine_url:
         sub_req = requests.get(sub_url)
         sub_req.raise_for_status()
         sub_soup = bs4.BeautifulSoup(sub_req.text)
+        prices = []
         #html contains additional json script that needs to be stripped to extract relevant data
         strip_text = "MajesticDataLayer.page.addPageName("+'"PLP");\n      MajesticDataLayer.product.addSearchResultData(['
         print('searching for wine data...')
         print()
-        for script in soup.find_all('script'):
-            prices = []
+        for script in sub_soup.find_all('script'):
             #search the html for the script that contains the wine data
             if re.search('MajesticDataLayer.', script.text) is not None:
                 prices.append(script.text)
