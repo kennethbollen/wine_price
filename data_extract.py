@@ -9,12 +9,15 @@ import bs4
 import re
 import json
 
+#all the relevant urls containting the data
 wine_url = []
 country_url = []
 grape_url = []
 regions_url = []
+#used to transform j-query code into python dicts
 split_wines = []
 wine_prices = {}
+#datasets scrapped contain true and false variables that need to be handled 
 true = 1
 false = 0
 
@@ -81,6 +84,7 @@ for wine in wine_url:
     #count how many web pages to loop
     num_pages = []
     for line in wine_soup.find_all('a', {'class': 'button button--small'}):
+        #this will grab a few non-int items and therefore need to handle for it
         try:
             a = int(line.text)
             num_pages.append(a)
@@ -110,11 +114,22 @@ for wine in wine_url:
         prices = prices[1]
         #strip off additional json code from data
         prices = prices.strip(strip_text)
-        prices = prices.strip('],')
+        prices = prices.strip('}],')
         #breakdown product data into individual datasets to allow it to be processed as a dict
         print('breaking down wine data into individual data sets...')
         print()
         prices = prices.split(',{')
+        #add a data tag to know what type of wine this is
+        wine = wine.replace('/','')
+        try:
+            wine = wine.replace('-',' ')
+        except:
+            print('no hypen to remove...')
+            print()
+        for x in range(len(prices)):
+            print('adding data tag...')
+            print()
+            prices[x] = prices[x] + ', "data_tag":"' + wine + '"}'
         print('Creating wine list with prices...')
         print()
         for x in range(len(prices)):
@@ -130,6 +145,6 @@ for wine_str in split_wines:
     try:
         a = json.loads(wine_str)
         for k, v in a.items():
-            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']}
+            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'rating': a['productFamily']['positiveRatings']},{'data_tag': a['data_tag']}
     except:
         print('No values...')
