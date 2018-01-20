@@ -120,16 +120,16 @@ for wine in wine_url:
         print()
         prices = prices.split(',{')
         #add a data tag to know what type of wine this is
-        wine = wine.replace('/','')
+        tag_wine = wine.replace('/','')
         try:
-            wine = wine.replace('-',' ')
+            tag_wine = wine.replace('-',' ')
         except:
             print('no hypen to remove...')
             print()
         for x in range(len(prices)):
             print('adding data tag...')
             print()
-            prices[x] = prices[x] + ', "data_tag":"' + wine + '"}'
+            prices[x] = prices[x] + ', "data_tag":"' + tag_wine + '"}'
         print('Creating wine list with prices...')
         print()
         for x in range(len(prices)):
