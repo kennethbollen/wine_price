@@ -114,30 +114,35 @@ for wine in wine_url:
         prices = prices[1]
         #strip off additional json code from data
         prices = prices.strip(strip_text)
-        prices = prices.strip('}],')
+        prices = prices.strip('],')
         #breakdown product data into individual datasets to allow it to be processed as a dict
         print('breaking down wine data into individual data sets...')
         print()
         prices = prices.split(',{')
+        for i in range(len(prices)):
+            #remove the the end curly bracket in order to append extra data
+            prices[i] = prices[i][:-1]
         #add a data tag to know what type of wine this is
-        tag_wine = wine.replace('/','')
+        tag_wine = wine.replace('https://www.majestic.co.uk/','')
         try:
-            tag_wine = wine.replace('-',' ')
+            tag_wine = tag_wine.replace('-',' ')
         except:
             print('no hypen to remove...')
             print()
-        for x in range(len(prices)):
-            print('adding data tag...')
-            print()
-            prices[x] = prices[x] + ', "data_tag":"' + tag_wine + '"}'
-        print('Creating wine list with prices...')
+        print('adding data tag...')
         print()
         for x in range(len(prices)):
+            #all the dicts in the list will have a opening curly bracket missing because of the split except the first dict
             if x == 0:
-                split_wines.append(prices[x])
+                prices[x] = prices[x] + ', "data_tag":"' + tag_wine + '"}'
             else:
-                split_wines.append('{' + prices[x])
-   
+                prices[x] = '{' + prices[x] + ', "data_tag":"' + tag_wine + '"}'
+        print('Creating wine list with prices...')
+        print()
+        #Using two different lists to capture the wine data as one list will be used to prep the data and the other to store the data
+        for x in prices:
+            split_wines.append(x)
+            
 #convert each element of the list into one dict with relevant data (product name and price) 
 for wine_str in split_wines:
     print('Converting wine list into dict...')
@@ -145,6 +150,6 @@ for wine_str in split_wines:
     try:
         a = json.loads(wine_str)
         for k, v in a.items():
-            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'rating': a['productFamily']['positiveRatings']},{'data_tag': a['data_tag']}
+            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'data_tag': a['data_tag']}
     except:
-        print('No values...')
+        print('ERROR: 'wine_str)
