@@ -152,4 +152,4 @@ for wine_str in split_wines:
         for k, v in a.items():
             wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'data_tag': a['data_tag']}
     except:
-        print('ERROR: 'wine_str)
+        print('ERROR: ', wine_str)
