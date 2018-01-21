@@ -8,6 +8,7 @@ import requests
 import bs4
 import re
 import json
+import pandas as pd
 
 #all the relevant urls containting the data
 wine_url = []
@@ -399,3 +400,31 @@ for region_str in split_region:
             region_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice'],'positive_rating': a['productFamily']['positiveRatings'],'num_ratings': a['productFamily']['allRatings'],'region': a['region']}
     except:
         print()
+
+ #convert data into dataframes 
+
+df_wines = pd.DataFrame(wine_prices)
+#transpose data
+df_wines = df_wines.T
+#add a rating score
+df_wines['rating_score'] = df_wines['positive_rating'] / df_wines['num_ratings']
+
+df_country = pd.DataFrame(country_prices)
+#transpose data
+df_country = df_country.T
+#add a rating score
+df_country['rating_score'] = df_country['positive_rating'] / df_country['num_ratings']
+
+df_grapes = pd.DataFrame(grape_prices)
+#transpose data
+df_grapes = df_grapes.T
+#add a rating score
+df_grapes['rating_score'] = df_grapes['positive_rating'] / df_grapes['num_ratings']
+
+df_regions = pd.DataFrame(region_prices)
+#transpose data
+df_regions = df_regions.T
+#add a rating score
+df_regions['rating_score'] = df_regions['positive_rating'] / df_regions['num_ratings']
+
+
