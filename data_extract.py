@@ -140,9 +140,9 @@ for wine in wine_url:
         for x in range(len(prices)):
             #all the dicts in the list will have a opening curly bracket missing because of the split except the first dict
             if x == 0:
-                prices[x] = prices[x] + ', "data_tag":"' + tag_wine + '"}'
+                prices[x] = prices[x] + ', "wine_type":"' + tag_wine + '"}'
             else:
-                prices[x] = '{' + prices[x] + ', "data_tag":"' + tag_wine + '"}'
+                prices[x] = '{' + prices[x] + ', "wine_type":"' + tag_wine + '"}'
         print('Creating wine list with prices...')
         print()
         #Using two different lists to capture the wine data as one list will be used to prep the data and the other to store the data
@@ -156,9 +156,9 @@ for wine_str in split_wines:
     try:
         a = json.loads(wine_str)
         for k, v in a.items():
-            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'data_tag': a['data_tag']}
+            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'wine_type': a['wine_type']}
     except:
-        print('ERROR: ', wine_str)
+        print()
 
 #Loop through the country urls
 for country in country_url:
@@ -220,9 +220,9 @@ for country in country_url:
         for x in range(len(prices)):
             #all the dicts in the list will have a opening curly bracket missing because of the split except the first dict
             if x == 0:
-                prices[x] = prices[x] + ', "data_tag":"' + tag_country + '"}'
+                prices[x] = prices[x] + ', "country":"' + tag_country + '"}'
             else:
-                prices[x] = '{' + prices[x] + ', "data_tag":"' + tag_country + '"}'
+                prices[x] = '{' + prices[x] + ', "country":"' + tag_country + '"}'
         print('Creating country list with prices...')
         print()
         #Using two different lists to capture the country data as one list will be used to prep the data and the other to store the data
@@ -236,7 +236,7 @@ for country_str in split_country:
     try:
         a = json.loads(country_str)
         for k, v in a.items():
-            country_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'data_tag': a['data_tag']}
+            country_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'country': a['country']}
     except:
         print()
         
@@ -300,9 +300,9 @@ for grape in grape_url:
         for x in range(len(prices)):
             #all the dicts in the list will have a opening curly bracket missing because of the split except the first dict
             if x == 0:
-                prices[x] = prices[x] + ', "data_tag":"' + tag_grape + '"}'
+                prices[x] = prices[x] + ', "grape":"' + tag_grape + '"}'
             else:
-                prices[x] = '{' + prices[x] + ', "data_tag":"' + tag_grape + '"}'
+                prices[x] = '{' + prices[x] + ', "grape":"' + tag_grape + '"}'
         print('Creating grape list with prices...')
         print()
         #Using two different lists to capture the grape data as one list will be used to prep the data and the other to store the data
@@ -316,7 +316,7 @@ for grape_str in split_grape:
     try:
         a = json.loads(grape_str)
         for k, v in a.items():
-            grape_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'data_tag': a['data_tag']}
+            grape_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'grape': a['grape']}
     except:
         print()
         
@@ -380,9 +380,9 @@ for region in regions_url:
         for x in range(len(prices)):
             #all the dicts in the list will have a opening curly bracket missing because of the split except the first dict
             if x == 0:
-                prices[x] = prices[x] + ', "data_tag":"' + tag_region + '"}'
+                prices[x] = prices[x] + ', "region":"' + tag_region + '"}'
             else:
-                prices[x] = '{' + prices[x] + ', "data_tag":"' + tag_region + '"}'
+                prices[x] = '{' + prices[x] + ', "region":"' + tag_region + '"}'
         print('Creating region list with prices...')
         print()
         #Using two different lists to capture the region data as one list will be used to prep the data and the other to store the data
@@ -396,6 +396,6 @@ for region_str in split_region:
     try:
         a = json.loads(region_str)
         for k, v in a.items():
-            region_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'data_tag': a['data_tag']}
+            region_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'region': a['region']}
     except:
         print()
