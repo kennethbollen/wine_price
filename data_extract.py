@@ -156,7 +156,7 @@ for wine_str in split_wines:
     try:
         a = json.loads(wine_str)
         for k, v in a.items():
-            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'wine_type': a['wine_type']}
+            wine_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice'],'positive_rating': a['productFamily']['positiveRatings'],'num_ratings': a['productFamily']['allRatings'],'wine_type': a['wine_type']}
     except:
         print()
 
@@ -236,7 +236,7 @@ for country_str in split_country:
     try:
         a = json.loads(country_str)
         for k, v in a.items():
-            country_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'country': a['country']}
+            country_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice'],'positive_rating': a['productFamily']['positiveRatings'],'num_ratings': a['productFamily']['allRatings'],'country': a['country']}
     except:
         print()
         
@@ -316,7 +316,7 @@ for grape_str in split_grape:
     try:
         a = json.loads(grape_str)
         for k, v in a.items():
-            grape_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'grape': a['grape']}
+            grape_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice'],'positive_rating': a['productFamily']['positiveRatings'],'num_ratings': a['productFamily']['allRatings']},'grape': a['grape']}
     except:
         print()
         
@@ -396,6 +396,6 @@ for region_str in split_region:
     try:
         a = json.loads(region_str)
         for k, v in a.items():
-            region_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice']},{'positive_rating': a['productFamily']['positiveRatings']},{'num_ratings': a['productFamily']['allRatings']},{'region': a['region']}
+            region_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice'],'positive_rating': a['productFamily']['positiveRatings'],'num_ratings': a['productFamily']['allRatings'],'region': a['region']}
     except:
         print()
