@@ -316,7 +316,7 @@ for grape_str in split_grape:
     try:
         a = json.loads(grape_str)
         for k, v in a.items():
-            grape_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice'],'positive_rating': a['productFamily']['positiveRatings'],'num_ratings': a['productFamily']['allRatings']},'grape': a['grape']}
+            grape_prices[a['productName']] = {'price': a['pricesCurrent']['prices']['basePrice'],'positive_rating': a['productFamily']['positiveRatings'],'num_ratings': a['productFamily']['allRatings'],'grape': a['grape']}
     except:
         print()
         
