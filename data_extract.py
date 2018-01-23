@@ -43,7 +43,11 @@ for links in soup.find_all('h3'):
 soup2 = bs4.BeautifulSoup(wines, "html.parser")
 lis = soup2.find_all('a')
 for li in lis:
-    wine_url.append("https://www.majestic.co.uk" + li['href'])
+    #avoid dupilication and overwrite of data
+    if li['href'] = '/wine':
+        continue
+    else:
+        wine_url.append("https://www.majestic.co.uk" + li['href'])
 
 #find all the countries
 for links in soup.find_all('h3'):
@@ -55,7 +59,11 @@ for links in soup.find_all('h3'):
 soup3 = bs4.BeautifulSoup(countries, 'html.parser')
 lis2 = soup3.find_all('a')
 for li in lis2:
-    country_url.append("https://www.majestic.co.uk" + li['href'])
+    #avoid dupilication and overwrite of data
+    if li['href'] = '/wine':
+        continue
+    else:
+        country_url.append("https://www.majestic.co.uk" + li['href'])
     
 #find all the grapes
 for links in soup.find_all('h3'):
@@ -131,11 +139,11 @@ for wine in wine_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of wine this is
         tag_wine = wine.replace('https://www.majestic.co.uk/','')
-        '''try:
+        try:
             tag_wine = tag_wine.replace('-',' ')
         except:
             print('no hypen to remove...')
-            print()'''
+            print()
         print('adding data tag...')
         print()
         for x in range(len(prices)):
