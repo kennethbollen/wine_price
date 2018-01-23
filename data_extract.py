@@ -435,4 +435,15 @@ df_regions = df_regions.T
 #add a rating score
 #df_regions['rating_score'] = df_regions['positive_rating'] / df_regions['num_ratings']
 
+#consolidate the datasets
+print('Joining wine and country datasets...')
+print()
+df_all = df_wines.join(df_country, how='left', lsuffix='_wines', rsuffix='_country')
+print('Adding grapes dataset...')
+print()
+df_all = df_all.join(df_grapes, how='left')
+print('Adding regions dataset...')
+print()
+df_all = df_all.join(df_regions, how='left', lsuffix='_grapes', rsuffix='_regions')
+df_all = df_all.drop(['num_ratings_country','positive_rating_country', 'price_country','num_ratings_grapes', 'positive_rating_grapes', 'price_grapes','num_ratings_regions', 'positive_rating_regions', 'price_regions'], axis=1)
 
