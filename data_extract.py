@@ -44,7 +44,7 @@ soup2 = bs4.BeautifulSoup(wines, "html.parser")
 lis = soup2.find_all('a')
 for li in lis:
     #avoid dupilication and overwrite of data
-    if li['href'] = '/wine':
+    if li['href'] == '/wine':
         continue
     else:
         wine_url.append("https://www.majestic.co.uk" + li['href'])
@@ -60,7 +60,7 @@ soup3 = bs4.BeautifulSoup(countries, 'html.parser')
 lis2 = soup3.find_all('a')
 for li in lis2:
     #avoid dupilication and overwrite of data
-    if li['href'] = '/wine':
+    if li['href'] == '/wine':
         continue
     else:
         country_url.append("https://www.majestic.co.uk" + li['href'])
@@ -219,11 +219,11 @@ for country in country_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of country this is
         tag_country = country.replace('https://www.majestic.co.uk/','')
-        '''try:
-            tag_country = tag_country.replace('-',' ')
+        try:
+            tag_country = tag_country.replace('-wine',' ')
         except:
             print('no hypen to remove...')
-            print()'''
+            print()
         print('adding data tag...')
         print()
         for x in range(len(prices)):
@@ -299,11 +299,11 @@ for grape in grape_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of grape this is
         tag_grape = grape.replace('https://www.majestic.co.uk/','')
-        '''try:
+        try:
             tag_grape = tag_grape.replace('-',' ')
         except:
             print('no hypen to remove...')
-            print()'''
+            print()
         print('adding data tag...')
         print()
         for x in range(len(prices)):
@@ -379,11 +379,11 @@ for region in regions_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of region this is
         tag_region = region.replace('https://www.majestic.co.uk/','')
-        '''try:
+        try:
             tag_region = tag_region.replace('-',' ')
         except:
             print('no hypen to remove...')
-            print()'''
+            print()
         print('adding data tag...')
         print()
         for x in range(len(prices)):
