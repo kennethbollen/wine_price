@@ -131,11 +131,11 @@ for wine in wine_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of wine this is
         tag_wine = wine.replace('https://www.majestic.co.uk/','')
-        try:
+        '''try:
             tag_wine = tag_wine.replace('-',' ')
         except:
             print('no hypen to remove...')
-            print()
+            print()'''
         print('adding data tag...')
         print()
         for x in range(len(prices)):
@@ -211,11 +211,11 @@ for country in country_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of country this is
         tag_country = country.replace('https://www.majestic.co.uk/','')
-        try:
+        '''try:
             tag_country = tag_country.replace('-',' ')
         except:
             print('no hypen to remove...')
-            print()
+            print()'''
         print('adding data tag...')
         print()
         for x in range(len(prices)):
@@ -291,11 +291,11 @@ for grape in grape_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of grape this is
         tag_grape = grape.replace('https://www.majestic.co.uk/','')
-        try:
+        '''try:
             tag_grape = tag_grape.replace('-',' ')
         except:
             print('no hypen to remove...')
-            print()
+            print()'''
         print('adding data tag...')
         print()
         for x in range(len(prices)):
@@ -371,11 +371,11 @@ for region in regions_url:
             prices[i] = prices[i][:-1]
         #add a data tag to know what type of region this is
         tag_region = region.replace('https://www.majestic.co.uk/','')
-        try:
+        '''try:
             tag_region = tag_region.replace('-',' ')
         except:
             print('no hypen to remove...')
-            print()
+            print()'''
         print('adding data tag...')
         print()
         for x in range(len(prices)):
@@ -407,24 +407,24 @@ df_wines = pd.DataFrame(wine_prices)
 #transpose data
 df_wines = df_wines.T
 #add a rating score
-df_wines['rating_score'] = df_wines['positive_rating'] / df_wines['num_ratings']
+#df_wines['rating_score'] = df_wines['positive_rating'] / df_wines['num_ratings']
 
 df_country = pd.DataFrame(country_prices)
 #transpose data
 df_country = df_country.T
 #add a rating score
-df_country['rating_score'] = df_country['positive_rating'] / df_country['num_ratings']
+#df_country['rating_score'] = df_country['positive_rating'] / df_country['num_ratings']
 
 df_grapes = pd.DataFrame(grape_prices)
 #transpose data
 df_grapes = df_grapes.T
 #add a rating score
-df_grapes['rating_score'] = df_grapes['positive_rating'] / df_grapes['num_ratings']
+#df_grapes['rating_score'] = df_grapes['positive_rating'] / df_grapes['num_ratings']
 
 df_regions = pd.DataFrame(region_prices)
 #transpose data
 df_regions = df_regions.T
 #add a rating score
-df_regions['rating_score'] = df_regions['positive_rating'] / df_regions['num_ratings']
+#df_regions['rating_score'] = df_regions['positive_rating'] / df_regions['num_ratings']
 
 
