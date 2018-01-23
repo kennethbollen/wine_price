@@ -447,3 +447,4 @@ print()
 df_all = df_all.join(df_regions, how='left', lsuffix='_grapes', rsuffix='_regions')
 df_all = df_all.drop(['num_ratings_country','positive_rating_country', 'price_country','num_ratings_grapes', 'positive_rating_grapes', 'price_grapes','num_ratings_regions', 'positive_rating_regions', 'price_regions'], axis=1)
 
+print(df_all)
