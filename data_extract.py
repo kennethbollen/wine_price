@@ -24,6 +24,11 @@ split_grape = []
 grape_prices = {}
 split_region = []
 region_prices = {}
+#category of wine country for further analysis
+old_world = ['spanish', 'portuguese', 'french', 'italian']
+new_world = ['australian','argentinian', 'new-zealand', 'south-african','chilean']
+world = []
+country_to_world = []
 #datasets scrapped contain true and false variables that need to be handled in order to import the data
 true = 1
 false = 0
@@ -427,6 +432,17 @@ df_country[['num_ratings', 'positive_rating', 'price']] = df_country[['num_ratin
 #add a rating score
 df_country['rating_score'] = df_country['positive_rating'] / df_country['num_ratings']
 
+#add a column to the dataframe to categorise wines into new world and old world
+for index, row in df_country.iterrows():
+	country_to_world.append(row['country'])
+for i in country_to_world:
+	if i in old_world:
+		world.append('old world')
+	else:
+		world.append('new world')       
+df_country['world'] = world
+
+#create grapes dataframe
 df_grapes = pd.DataFrame(grape_prices)
 #transpose data
 df_grapes = df_grapes.T
@@ -435,6 +451,7 @@ df_grapes[['num_ratings', 'positive_rating', 'price']] = df_grapes[['num_ratings
 #add a rating score
 df_grapes['rating_score'] = df_grapes['positive_rating'] / df_grapes['num_ratings']
 
+#create regions dataframe
 df_regions = pd.DataFrame(region_prices)
 #transpose data
 df_regions = df_regions.T
