@@ -421,6 +421,8 @@ df_wines = pd.DataFrame(wine_prices)
 df_wines = df_wines.T
 #convert to floats
 df_wines[['num_ratings', 'positive_rating', 'price']] = df_wines[['num_ratings', 'positive_rating', 'price']].astype('float')
+#trim the white space
+df_wines['wine_type'] = df_wines['wine_type'].str.strip()
 #add a rating score
 #df_wines['rating_score'] = df_wines['positive_rating'] / df_wines['num_ratings']
 
@@ -429,9 +431,10 @@ df_country = pd.DataFrame(country_prices)
 df_country = df_country.T
 #convert to floats
 df_country[['num_ratings', 'positive_rating', 'price']] = df_country[['num_ratings', 'positive_rating', 'price']].astype('float')
+#trim the white space
+df_country['country'] = df_country['country'].str.strip()
 #add a rating score
 df_country['rating_score'] = df_country['positive_rating'] / df_country['num_ratings']
-
 #add a column to the dataframe to categorise wines into new world and old world
 for index, row in df_country.iterrows():
 	country_to_world.append(row['country'])
@@ -448,6 +451,8 @@ df_grapes = pd.DataFrame(grape_prices)
 df_grapes = df_grapes.T
 #convert to floats
 df_grapes[['num_ratings', 'positive_rating', 'price']] = df_grapes[['num_ratings', 'positive_rating', 'price']].astype('float')
+#remove the whitespace
+df_grapes['grape'] = df_grapes['grape'].str.strip()
 #add a rating score
 df_grapes['rating_score'] = df_grapes['positive_rating'] / df_grapes['num_ratings']
 
@@ -457,6 +462,8 @@ df_regions = pd.DataFrame(region_prices)
 df_regions = df_regions.T
 #convert to floats
 df_regions[['num_ratings', 'positive_rating', 'price']] = df_regions[['num_ratings', 'positive_rating', 'price']].astype('float')
+#remove the whitespace
+df_grapes['region'] = df_grapes['region'].str.strip()
 #add a rating score
 df_regions['rating_score'] = df_regions['positive_rating'] / df_regions['num_ratings']
 
