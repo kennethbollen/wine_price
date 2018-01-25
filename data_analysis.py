@@ -1,4 +1,6 @@
+from data_extract import *
 import seaborn as sns
+from stats_functions import draw_perm_reps
 
 #EDA on the wine's country of origin and rating score
 _ = sns.swarmplot(x='country', y='rating_score', data=df_country)
