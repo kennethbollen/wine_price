@@ -463,7 +463,7 @@ df_regions = df_regions.T
 #convert to floats
 df_regions[['num_ratings', 'positive_rating', 'price']] = df_regions[['num_ratings', 'positive_rating', 'price']].astype('float')
 #remove the whitespace
-df_grapes['region'] = df_grapes['region'].str.strip()
+df_regions['region'] = df_regions['region'].str.strip()
 #add a rating score
 df_regions['rating_score'] = df_regions['positive_rating'] / df_regions['num_ratings']
 
