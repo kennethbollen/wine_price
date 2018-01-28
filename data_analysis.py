@@ -29,6 +29,7 @@ mu = df_country['rating_score'].mean()
 sigma = df_country['rating_score'].std()
 samples = np.random.normal(mu, sigma, size=10000)
 plt.hist(samples, normed=True, bins=100, histtype='step')
+plt.show()
 #Yes - data is normally ditributed
 
 #what's the probability of someone buying non french wine again
