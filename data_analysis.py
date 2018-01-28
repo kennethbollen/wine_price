@@ -1,4 +1,5 @@
 from data_extract import *
+import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy import stats
