@@ -467,16 +467,26 @@ df_regions['region'] = df_regions['region'].str.strip()
 #add a rating score
 df_regions['rating_score'] = df_regions['positive_rating'] / df_regions['num_ratings']
 
-'''#consolidate the datasets
+#consolidate the datasets
 print('Joining wine and country datasets...')
 print()
-df_all = df_wines.join(df_country, how='left', lsuffix='_wines', rsuffix='_country')
+df_all = df_wines.join(df_country, how='left', rsuffix='_country')
 print('Adding grapes dataset...')
 print()
-df_all = df_all.join(df_grapes, how='left', lsuffix='_grapes', rsuffix='_grapes')
+df_all = df_all.drop(['num_ratings_country','positive_rating_country', 'rating_score' ,'price_country'], axis=1)
+
+df_all = df_all.join(df_grapes, how='left', rsuffix='_grapes')
+df_all = df_all.drop(['num_ratings_grapes', 'positive_rating_grapes', 'rating_score','price_grapes'], axis=1)
 print('Adding regions dataset...')
 print()
-df_all = df_all.join(df_regions, how='left', lsuffix='_grapes', rsuffix='_regions')
-df_all = df_all.drop(['num_ratings_country','positive_rating_country', 'rating_score_country' ,'price_country','num_ratings_grapes', 'positive_rating_grapes', 'rating_score_grapes','price_grapes','num_ratings_regions', 'positive_rating_regions', 'rating_score_regions' ,'price_regions'], axis=1)
 
-print(df_all)'''
+df_all = df_all.join(df_regions, how='left', rsuffix='_regions')
+df_all = df_all.drop(['num_ratings_regions', 'positive_rating_regions', 'rating_score' ,'price_regions'], axis=1)
+
+#remove the wines where there were no ratings
+df_all = df_all[df_all.num_ratings != 0]
+
+print('number of blanks')
+print(df_all.isna().sum())
+
+
