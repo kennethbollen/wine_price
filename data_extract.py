@@ -503,16 +503,17 @@ df_2['rating_score'] = df_2['rating_score'].fillna(0)
 df_dumb = pd.get_dummies(df_2)
 
 #create the independent variables and dependent variable
-X = df_dumb.drop(['rating_score', 'num_ratings', 'positive_rating', 'world_new world', 'world_old world'], axis=1).values
+X = np.array(df_dumb.drop(['rating_score', 'num_ratings', 'positive_rating', 'world_new world', 'world_old world'], axis=1).values)
 
 #create target variable and transform into a category
-#Catergories Fav is > 50% repurchase Unfav < 50% purchases 
 y = df_dumb['rating_score'].values
-for index, row in df_2.iterrows():
+
+#Catergories Fav is > 50% repurchase Unfav < 50% purchases 
+'''for index, row in df_2.iterrows():
 	if row['rating_score'] > 0.5:
 		y.append(True)
 	else:
-		y.append(False)
+		y.append(False)'''
 
 
 
