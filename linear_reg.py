@@ -6,11 +6,6 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 
-
-# Create arrays for features and target variable
-y = np.array(df['life'])
-X = np.array(df['fertility'])
-
 # Reshape X and y
 y = y.reshape(-1,1)
 X = X.reshape(-1,1)
