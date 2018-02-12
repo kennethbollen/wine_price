@@ -33,6 +33,8 @@ country_to_world = []
 #datasets scrapped contain true and false variables that need to be handled in order to import the data
 true = 1
 false = 0
+#set the target variable
+y = []
 
 url = 'https://www.majestic.co.uk/wine'
 req = requests.get(url)
@@ -508,12 +510,15 @@ X = np.array(df_dumb.drop(['rating_score', 'num_ratings', 'positive_rating', 'wo
 #create target variable and transform into a category
 y = df_dumb['rating_score'].values
 
-#Catergories Fav is > 50% repurchase Unfav < 50% purchases 
-'''for index, row in df_2.iterrows():
+#Catergories Fav is > 50% repurchase Unfav < 50% purchases
+for index, row in df_2.iterrows():
 	if row['rating_score'] > 0.5:
-		y.append(True)
+		y.append(1)
 	else:
-		y.append(False)'''
+		y.append(0)
+print('target variable set...')
+print('a score of 1 = Favourable')
+print('a score of 0 = Unfavourable')
 
 
 
