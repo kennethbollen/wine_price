@@ -9,6 +9,7 @@ import bs4
 import re
 import json
 import pandas as pd
+import numpy as np
 
 #all the relevant urls containting the data
 wine_url = []
@@ -32,6 +33,9 @@ country_to_world = []
 #datasets scrapped contain true and false variables that need to be handled in order to import the data
 true = 1
 false = 0
+#Create independent and dependent variables
+X = []
+y = []
 
 url = 'https://www.majestic.co.uk/wine'
 req = requests.get(url)
@@ -491,5 +495,27 @@ df_all['rating_score'] = df_all['positive_rating'] / df_all['num_ratings']
 
 print('number of blanks')
 print(df_all.isnull().sum())
+
+#remove grape and region from the initial analysis 
+df_2 = df_all.drop(['grape','region'], axis=1)
+
+#fill na of the rating score attribute with 0s
+df_2['rating_score'] = df_2['rating_score'].fillna(0)
+
+#create the independent variables and dependent variable
+for price, w_type, country, world in zip(df_2['price'],df_2['wine_type'],df_2['country'],df_2['world']):
+	X.append([price, w_type, country, world])
+
+X = np.array(X)
+
+#create target variable and transform into a category
+#Catergories Fav is > 50% repurchase Unfav < 50% purchases 
+for index, row in df_2.iterrows():
+	if row['rating_score'] > 0.5:
+		y.append(True)
+	else:
+		y.append(False)
+
+
 
 
