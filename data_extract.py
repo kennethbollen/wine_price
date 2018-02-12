@@ -33,9 +33,6 @@ country_to_world = []
 #datasets scrapped contain true and false variables that need to be handled in order to import the data
 true = 1
 false = 0
-#Create independent and dependent variables
-X = []
-y = []
 
 url = 'https://www.majestic.co.uk/wine'
 req = requests.get(url)
@@ -502,14 +499,15 @@ df_2 = df_all.drop(['grape','region'], axis=1)
 #fill na of the rating score attribute with 0s
 df_2['rating_score'] = df_2['rating_score'].fillna(0)
 
-#create the independent variables and dependent variable
-for price, w_type, country, world in zip(df_2['price'],df_2['wine_type'],df_2['country'],df_2['world']):
-	X.append([price, w_type, country, world])
+#turn categorial data into numerical
+df_dumb = pd.get_dummies(df_2)
 
-X = np.array(X)
+#create the independent variables and dependent variable
+X = df_dumb.drop(['rating_score', 'num_ratings', 'positive_rating', 'world_new world', 'world_old world'], axis=1).values
 
 #create target variable and transform into a category
 #Catergories Fav is > 50% repurchase Unfav < 50% purchases 
+y = df_dumb['rating_score'].values
 for index, row in df_2.iterrows():
 	if row['rating_score'] > 0.5:
 		y.append(True)
