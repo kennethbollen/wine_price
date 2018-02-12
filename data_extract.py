@@ -483,13 +483,13 @@ print()
 df_all = df_all.join(df_regions, how='left', rsuffix='_regions')
 df_all = df_all.drop(['num_ratings_regions', 'positive_rating_regions', 'rating_score' ,'price_regions'], axis=1)
 
-#remove the wines where there were no ratings
-df_all = df_all[df_all.num_ratings != 0]
+#remove the wines where there were no ratings - not using this with the rationale that no ratings indicate no order = no demand, still a relevant data point
+#df_all = df_all[df_all.num_ratings != 0]
 
 #add aggregate rating score
 df_all['rating_score'] = df_all['positive_rating'] / df_all['num_ratings']
 
 print('number of blanks')
-print(df_all.isna().sum())
+print(df_all.isnull().sum())
 
 
