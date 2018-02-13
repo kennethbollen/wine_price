@@ -68,4 +68,73 @@ logreg_cv.fit(X, y)
 print("Tuned Logistic Regression Parameters: {}".format(logreg_cv.best_params_)) 
 print("Best score is {}".format(logreg_cv.best_score_))
 
-#NEXT STEP: HOLD OUT https://campus.datacamp.com/courses/supervised-learning-with-scikit-learn/fine-tuning-your-model?ex=14
+def predict_wine(price, wine, country):
+	y_predict = [price]
+	
+	fine_wine = 0
+	red_wine = 0
+	white_wine = 0
+	rose_wine = 0
+	argentina = 0
+	australian = 0
+	chilean = 0
+	french = 0
+	italian = 0
+	new_zealand = 0
+	portuguese = 0
+	south_african = 0
+	spanish = 0
+	new_world = 0
+	old_world = 0
+
+	try:
+		if wine.lower() == 'fine wine' or wine.lower() == 'fine_wine' or wine.lower() == 'fine':
+			fine_wine += 1
+		elif wine.lower() == 'red wine' or wine.lower() == 'red_wine' or wine.lower() == 'red':
+			red_wine += 1
+		elif wine.lower() == 'white wine' or wine.lower() == 'white_wine' or wine.lower() == 'white':
+			white_wine += 1
+		elif wine.lower() == 'rose wine' or wine.lower() == 'rose_wine' or wine.lower() == 'rose':
+			rose_wine += 1
+		else:
+			print('Does not recognize the type of wine, please input (e.g white wine)')
+	except:
+		print('Does not recognize the type of wine, please input (e.g white wine)')
+
+	try:	
+		if country.lower() == 'argentina':
+			argentina += 1
+		elif country.lower() == 'australian' or country.lower() == 'australia':
+			australian += 1
+		elif country.lower() == 'chilean' or country.lower() == 'chile':
+			chilean += 1
+		elif country.lower() == 'french' or country.lower() == 'france':
+			french += 1
+		elif country.lower() == 'italian' or country.lower() == 'italy':
+			italian += 1
+		elif country.lower() == 'new zealand' or country.lower() == 'new zealand':
+			new_zealand += 1
+		elif country.lower() == 'portuguese' or country.lower() == 'portugal':
+			portuguese += 1
+		elif country.lower() == 'south african' or country.lower() == 'south_african':
+			south_african += 1
+		elif country.lower() == 'spanish' or country.lower() == 'spain':
+			spanish += 1
+		else:
+			print('Does not recognize the country, please input valid country')
+	except:
+		print('Does not recognize the country, please input valid country')
+	
+	attr = [fine_wine, red_wine, rose_wine, white_wine, argentina, australian, chilean, french, italian, new_zealand, portuguese, south_african, spanish]
+  
+	for i in attr:
+		y_predict.append(i)
+	y_predict = np.array(y_predict)
+	y_predict = y_predict.reshape(1, -1)
+	result = logreg.predict(y_predict)
+	if result == 1:
+		print('This wine will be favourable with customers')
+	elif result == 0:
+		print('This wine will be unfavoruable with customers')
+	else:
+		print('unknown...check inputs')
