@@ -513,9 +513,9 @@ y = df_dumb['rating_score'].values
 #Catergories Fav is > 50% repurchase Unfav < 50% purchases
 for index, row in df_2.iterrows():
 	if row['rating_score'] > 0.5:
-		y.append(1)
+		np.append(y,1)
 	else:
-		y.append(0)
+		np.append(y,0)
 print('target variable set...')
 print('a score of 1 = Favourable')
 print('a score of 0 = Unfavourable')
