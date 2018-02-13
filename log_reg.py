@@ -116,7 +116,7 @@ def predict_wine(price, wine, country):
 			new_zealand += 1
 		elif country.lower() == 'portuguese' or country.lower() == 'portugal':
 			portuguese += 1
-		elif country.lower() == 'south african' or country.lower() == 'south_african':
+		elif country.lower() == 'south african' or country.lower() == 'south_african' or country.lower() == 'south africa' or country.lower() == 'south_africa':
 			south_african += 1
 		elif country.lower() == 'spanish' or country.lower() == 'spain':
 			spanish += 1
