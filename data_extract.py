@@ -507,6 +507,7 @@ df_dumb = pd.get_dummies(df_2)
 #create the independent variables and dependent variable
 X = np.array(df_dumb.drop(['rating_score', 'num_ratings', 'positive_rating', 'world_new world', 'world_old world'], axis=1).values)
 
+#for catergorial learning
 #Catergories Fav is > 50% repurchase Unfav < 50% purchases
 for index, row in df_2.iterrows():
 	if row['rating_score'] > 0.5:
@@ -519,6 +520,8 @@ print('target variable set...')
 print('a score of 1 = Favourable')
 print('a score of 0 = Unfavourable')
 
+#for linear learning
+y_rating = np.array(df_dumb['rating_score'].values)
 
 
 
