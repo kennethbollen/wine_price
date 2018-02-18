@@ -7,6 +7,10 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import roc_curve
+from sklearn.preprocessing import scale
+
+#scale the features
+X = scale(X)
 
 # Create training and test sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.4, random_state=42)
