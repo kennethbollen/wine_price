@@ -1,8 +1,4 @@
-#What impacts the price of wine?
-
-#dependent variable (y): Base Price
-
-#independent variables (x): Grape, Country, Region, Vintage
+#!python3
 
 import requests
 import bs4
@@ -35,6 +31,8 @@ true = 1
 false = 0
 #set the target variable
 y = []
+#transform continous data price into cat
+price_cat = []
 
 url = 'https://www.majestic.co.uk/wine'
 req = requests.get(url)
@@ -498,6 +496,23 @@ print(df_all.isnull().sum())
 #remove grape and region from the initial analysis 
 df_2 = df_all.drop(['grape','region'], axis=1)
 
+#transform price into category
+for k, v in df_2['price'].items():
+    if v <= 10:
+        price_cat.append('£0 - £10')
+    elif v <= 30:
+        price_cat.append('£11 - £30')
+    elif v <= 50:
+        price_cat.append('£31 - £50')
+    elif v <= 100:
+        price_cat.append('£51 - £100')
+    elif v <= 250:
+        price_cat.append('£101 - £250')
+    else:
+        price_cat.append('£251 - £500')
+
+df_2['price_cat'] = price_cat
+
 #fill na of the rating score attribute with 0s
 df_2['rating_score'] = df_2['rating_score'].fillna(0)
 
@@ -505,7 +520,7 @@ df_2['rating_score'] = df_2['rating_score'].fillna(0)
 df_dumb = pd.get_dummies(df_2)
 
 #create the independent variables and dependent variable
-X = np.array(df_dumb.drop(['rating_score', 'num_ratings', 'positive_rating', 'world_new world', 'world_old world'], axis=1).values)
+X = np.array(df_dumb.drop(['rating_score', 'num_ratings', 'positive_rating', 'world_new world', 'world_old world', 'price'], axis=1).values)
 
 #for catergorial learning
 #Catergories Fav is > 50% repurchase Unfav < 50% purchases
