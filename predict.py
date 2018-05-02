@@ -45,4 +45,10 @@ plt.ylabel('recall')
 plt.title('Precision recall curve for classes: Good wine vs. Bad wine')
 plt.label(loc='best')
 
+#the defualt threshold will have points greater than 0 classified into class 1
+#This is an imbalanced dataset with more 1s than 0s
+#I want to increase the precision of finding 0s and therefore increase the threshold from 0 to be less bias to 1
+
+y_pred_higher_threshold = grid.decision_function(X_test) > .95
+print('Classification report: {}'.format(classification_report(y_test, y_pred_higher_threshold)))
 
