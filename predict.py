@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classfication_report
+from sklearn.metrics import precision_recall_curve
 from sklearn.svm import SVC
 
 #split the data into train, validation and test data
@@ -35,4 +36,13 @@ confusion = confusion_matrix(y_test, y_pred)
 print('confusion matrix: {}'.format(confusion))
 
 #determine optimal precision recall with curve for classification report
+precision, recall, thresholds = precision_recall_curve(y_test, svm.decision_function(X_test))
+close_zero = np.argmin(np.abs(thresholds))
+plt.plot(precision[close_zero], recall[close_zero], market='o', label='threshold at zero', fillstyle='none', c='k', mew=2)
+plt.plot(precision, recall, label='precision-recall curve')
+plt.xlabel('precision')
+plt.ylabel('recall')
+plt.title('Precision recall curve for classes: Good wine vs. Bad wine')
+plt.label(loc='best')
+
 
