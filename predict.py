@@ -52,3 +52,96 @@ plt.label(loc='best')
 y_pred_higher_threshold = grid.decision_function(X_test) > .95
 print('Classification report: {}'.format(classification_report(y_test, y_pred_higher_threshold)))
 
+#create a function to predict user satisfaction
+def predict_wine(price, wine, country):
+
+	#This will scale the data from the format of the user input into how the model reads the data (binary intergers)
+	fine_wine = 0
+	red_wine = 0
+	white_wine = 0
+	rose_wine = 0
+	argentina = 0
+	australian = 0
+	chilean = 0
+	french = 0
+	italian = 0
+	new_zealand = 0
+	portuguese = 0
+	south_african = 0
+	spanish = 0
+	zero_ten = 0
+	eleven_thrity = 0
+	thirtyone_fifty = 0
+	fiftyone_hundered = 0
+	hunderedone_twofifty = 0
+	twofiftyone_fivehundered = 0
+
+	try:
+    if price <= 10:
+      zero_ten += 1
+    elif price <= 30:
+      eleven_thrity += 1
+    elif price <= 50:
+      thirtyone_fifty += 1
+    elif price <=  100:
+      fiftyone_hundered += 1
+    elif price <= 250:
+      twofiftyone_fivehundered += 1
+    else:
+      print('price is out of range, please input a lower price')
+  except:
+    print('does not recognize the price inputted, please input a number')
+
+	try:
+		if wine.lower() == 'fine wine' or wine.lower() == 'fine_wine' or wine.lower() == 'fine':
+			fine_wine += 1
+		elif wine.lower() == 'red wine' or wine.lower() == 'red_wine' or wine.lower() == 'red':
+			red_wine += 1
+		elif wine.lower() == 'white wine' or wine.lower() == 'white_wine' or wine.lower() == 'white':
+			white_wine += 1
+		elif wine.lower() == 'rose wine' or wine.lower() == 'rose_wine' or wine.lower() == 'rose':
+			rose_wine += 1
+		else:
+			print('Does not recognize the type of wine, please input (e.g white wine)')
+	except:
+		continue
+
+	try:	
+		if country.lower() == 'argentina':
+			argentina += 1
+		elif country.lower() == 'australian' or country.lower() == 'australia':
+			australian += 1
+		elif country.lower() == 'chilean' or country.lower() == 'chile':
+			chilean += 1
+		elif country.lower() == 'french' or country.lower() == 'france':
+			french += 1
+		elif country.lower() == 'italian' or country.lower() == 'italy':
+			italian += 1
+		elif country.lower() == 'new zealand' or country.lower() == 'new zealand':
+			new_zealand += 1
+		elif country.lower() == 'portuguese' or country.lower() == 'portugal':
+			portuguese += 1
+		elif country.lower() == 'south african' or country.lower() == 'south_african' or country.lower() == 'south africa' or country.lower() == 'south_africa':
+			south_african += 1
+		elif country.lower() == 'spanish' or country.lower() == 'spain':
+			spanish += 1
+		else:
+			print('Does not recognize the country, please input valid country')
+	except:
+		print('Does not recognize the country, please input valid country')
+
+	#create a list of the inputed data in the same order as how the prediction model was trained from the dataset
+	attr = [fine_wine, red_wine, rose_wine, white_wine, argentina, australian, chilean, french, italian, new_zealand, portuguese, south_african, spanish, zero_ten, eleven_thrity, thirtyone_fifty, fiftyone_hundered, hunderedone_twofifty, twofiftyone_fivehundered]
+  
+	for i in attr:
+		y_predict.append(i)
+	y_predict = np.array(y_predict)
+	y_predict = y_predict.reshape(1, -1)
+	result = svm.predict(y_predict)
+	if result == 1:
+		print('This wine will be favourable with customers')
+	elif result == 0:
+		print('This wine will be unfavoruable with customers')
+	else:
+		print('unknown...check inputs')
+
