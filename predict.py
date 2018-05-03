@@ -77,20 +77,20 @@ def predict_wine(price, wine, country):
 	twofiftyone_fivehundered = 0
 
 	try:
-    if price <= 10:
-      zero_ten += 1
-    elif price <= 30:
-      eleven_thrity += 1
-    elif price <= 50:
-      thirtyone_fifty += 1
-    elif price <=  100:
-      fiftyone_hundered += 1
-    elif price <= 250:
-      twofiftyone_fivehundered += 1
-    else:
-      print('price is out of range, please input a lower price')
-  except:
-    print('does not recognize the price inputted, please input a number')
+	    if price <= 10:
+	      zero_ten += 1
+	    elif price <= 30:
+	      eleven_thrity += 1
+	    elif price <= 50:
+	      thirtyone_fifty += 1
+	    elif price <=  100:
+	      fiftyone_hundered += 1
+	    elif price <= 250:
+	      twofiftyone_fivehundered += 1
+	    else:
+	      print('price is out of range, please input a lower price')
+	  except:
+	    print('does not recognize the price inputted, please input a number')
 
 	try:
 		if wine.lower() == 'fine wine' or wine.lower() == 'fine_wine' or wine.lower() == 'fine':
