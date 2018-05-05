@@ -54,7 +54,9 @@ print('Classification report: {}'.format(classification_report(y_test, y_pred_hi
 
 #create a function to predict user satisfaction
 def predict_wine(price, wine, country):
-
+	#array to capture prediction
+	y_predict = np.empty(19)
+	
 	#This will scale the data from the format of the user input into how the model reads the data (binary intergers)
 	fine_wine = 0
 	red_wine = 0
