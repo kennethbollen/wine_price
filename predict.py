@@ -29,7 +29,7 @@ print('training score: {:2f}'.format(svm.score(X_train, y_train)))
 print('test score: {:2f}'.format(svm.score(X_test, y_test)))
 
 #prediction on unseen data
-y_pred = svm.pred(X_test)
+y_pred = svm.predict(X_test)
 
 #confusion matrix results
 confusion = confusion_matrix(y_test, y_pred)
