@@ -37,7 +37,7 @@ price_cat = []
 url = 'https://www.majestic.co.uk/wine'
 req = requests.get(url)
 req.raise_for_status()
-soup = bs4.BeautifulSoup(req.text)
+soup = bs4.BeautifulSoup(req.text, 'lxml')
 
 #find all the grapes
 for links in soup.find_all('h3'):
