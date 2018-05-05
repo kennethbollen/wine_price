@@ -75,23 +75,25 @@ def predict_wine(price, wine, country):
 	fiftyone_hundered = 0
 	hunderedone_twofifty = 0
 	twofiftyone_fivehundered = 0
-
+	
+	#the price argument
 	try:
-	    if price <= 10:
-	      zero_ten += 1
-	    elif price <= 30:
-	      eleven_thrity += 1
-	    elif price <= 50:
-	      thirtyone_fifty += 1
-	    elif price <=  100:
-	      fiftyone_hundered += 1
-	    elif price <= 250:
-	      twofiftyone_fivehundered += 1
-	    else:
-	      print('price is out of range, please input a lower price')
-	  except:
-	    print('does not recognize the price inputted, please input a number')
-
+		if price <= 10:
+			zero_ten += 1
+		elif price <= 30:
+			eleven_thirty += 1
+		elif price <= 50:
+			thirtyone_fifty += 1
+		elif price <= 100:
+			fiftyone_hundered += 1
+		elif price <= 250:
+			twofiftyone_fivehundered += 1
+		else:
+			print('price is out of range, please input a lower price')
+	except:
+		print('does not recognize the price inputted, please input a number')
+	
+	#the wine argument
 	try:
 		if wine.lower() == 'fine wine' or wine.lower() == 'fine_wine' or wine.lower() == 'fine':
 			fine_wine += 1
@@ -105,7 +107,8 @@ def predict_wine(price, wine, country):
 			print('Does not recognize the type of wine, please input (e.g white wine)')
 	except:
 		continue
-
+	
+	#the country argument
 	try:	
 		if country.lower() == 'argentina':
 			argentina += 1
@@ -132,12 +135,15 @@ def predict_wine(price, wine, country):
 
 	#create a list of the inputed data in the same order as how the prediction model was trained from the dataset
 	attr = [fine_wine, red_wine, rose_wine, white_wine, argentina, australian, chilean, french, italian, new_zealand, portuguese, south_african, spanish, zero_ten, eleven_thrity, thirtyone_fifty, fiftyone_hundered, hunderedone_twofifty, twofiftyone_fivehundered]
-  
+  	
+	#append the prediction variable with the independent variables stored in the attr list
 	for i in attr:
 		y_predict.append(i)
 	y_predict = np.array(y_predict)
 	y_predict = y_predict.reshape(1, -1)
+	#make a prediction
 	result = svm.predict(y_predict)
+	#translate the prediction
 	if result == 1:
 		print('This wine will be favourable with customers')
 	elif result == 0:
