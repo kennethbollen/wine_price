@@ -43,7 +43,7 @@ plt.plot(precision, recall, label='precision-recall curve')
 plt.xlabel('precision')
 plt.ylabel('recall')
 plt.title('Precision recall curve for classes: Good wine vs. Bad wine')
-plt.label(loc='best')
+plt.legend(loc='best')
 
 #the defualt threshold will have points greater than 0 classified into class 1
 #This is an imbalanced dataset with more 1s than 0s
