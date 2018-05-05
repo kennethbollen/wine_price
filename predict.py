@@ -38,7 +38,7 @@ print('confusion matrix: {}'.format(confusion))
 #determine optimal precision recall with curve for classification report
 precision, recall, thresholds = precision_recall_curve(y_test, svm.decision_function(X_test))
 close_zero = np.argmin(np.abs(thresholds))
-plt.plot(precision[close_zero], recall[close_zero], market='o', label='threshold at zero', fillstyle='none', c='k', mew=2)
+plt.plot(precision[close_zero], recall[close_zero], marker='o', label='threshold at zero', fillstyle='none', c='k', mew=2)
 plt.plot(precision, recall, label='precision-recall curve')
 plt.xlabel('precision')
 plt.ylabel('recall')
