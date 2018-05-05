@@ -140,8 +140,7 @@ def predict_wine(price, wine, country):
   	
 	#append the prediction variable with the independent variables stored in the attr list
 	for i in attr:
-		y_predict.append(i)
-	y_predict = np.array(y_predict)
+		np.append(y_predict, i)
 	y_predict = y_predict.reshape(1, -1)
 	#make a prediction
 	result = svm.predict(y_predict)
