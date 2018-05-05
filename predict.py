@@ -104,9 +104,9 @@ def predict_wine(price, wine, country):
 		elif wine.lower() == 'rose wine' or wine.lower() == 'rose_wine' or wine.lower() == 'rose':
 			rose_wine += 1
 		else:
-			print('Does not recognize the type of wine, please input (e.g white wine)')
+			print('wine selected not in the database, please choose: white, red, rose or fine wine')
 	except:
-		continue
+		print('does not recognize the type of wine, please input (e.g white wine)')
 	
 	#the country argument
 	try:	
@@ -129,9 +129,9 @@ def predict_wine(price, wine, country):
 		elif country.lower() == 'spanish' or country.lower() == 'spain':
 			spanish += 1
 		else:
-			print('Does not recognize the country, please input valid country')
+			print('does not recognize the country, please input valid country')
 	except:
-		print('Does not recognize the country, please input valid country')
+		print('does not recognize the country, please input valid country')
 
 	#create a list of the inputed data in the same order as how the prediction model was trained from the dataset
 	attr = [fine_wine, red_wine, rose_wine, white_wine, argentina, australian, chilean, french, italian, new_zealand, portuguese, south_african, spanish, zero_ten, eleven_thrity, thirtyone_fifty, fiftyone_hundered, hunderedone_twofifty, twofiftyone_fivehundered]
