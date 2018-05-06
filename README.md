@@ -8,7 +8,7 @@ Languages: Python 3
 Source: https://majestic.co.uk
 Time period: April 2018
 Time of analysis: January 2018 - April 2018
-Packages used: pandas, numpy, requests, re, bs4, sklearn, matplotlib, seaborn, scipy.stats, json
+Packages used: pandas, numpy, requests, re, bs4, sklearn, matplotlib, seaborn, scipy.stats and json
 
 Data Extract (data_extract.py)
 -------------------------------
