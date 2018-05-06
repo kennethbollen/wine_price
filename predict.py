@@ -49,7 +49,7 @@ plt.legend(loc='best')
 #This is an imbalanced dataset with more 1s than 0s
 #I want to increase the precision of finding 0s and therefore increase the threshold from 0 to be less bias to 1
 
-y_pred_higher_threshold = svm.decision_function(X_test) > .95
+y_pred_higher_threshold = svm.decision_function(X_test) > .2
 print('Classification report: {}'.format(classification_report(y_test, y_pred_higher_threshold)))
 
 #create a function to predict user satisfaction
