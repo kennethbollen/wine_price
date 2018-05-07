@@ -1,0 +1,561 @@
+,num_ratings,positive_rating,price,wine_type,country,world,grape,region,rating_score
+"""The Astronomer"" Chardonnay 2016 De Bortoli",61.0,54.0,6.99,white wine,australian,new world,,,0.8852459016393442
+"'Angels' Share' Shiraz 2015 Two Hands, McLaren Vale",34.0,34.0,21.99,red wine,australian,new world,,,1.0
+A Lisa 2015 Bodega Noemía de Patagonia,16.0,15.0,28.0,fine wine,argentinian,new world,merlot,,0.9375
+A Sticky End Noble Sauvignon Blanc Half Bottle,13.0,12.0,17.99,white wine,new-zealand,new world,,marlborough wine,0.9230769230769231
+A.Gauvin Gevrey Chambertin 2015,3.0,3.0,40.0,fine wine,french,old world,,burgundy,1.0
+AIX Rosé 2017 Coteaux d'Aix en Provence Magnum,36.0,34.0,26.99,rose wine,french,old world,,,0.9444444444444444
+Abbott's & Delaunay Fruits Sauvage Sauvignon Blanc 2017,0.0,0.0,9.99,white wine,,,,,
+Abbotts & Delaunay Viognier 2015,43.0,41.0,9.99,white wine,french,old world,,south of france,0.9534883720930233
+Acacia Road Chenin Blanc,22.0,19.0,7.99,white wine,,,,,0.8636363636363636
+Acacia Road Merlot,18.0,17.0,7.99,red wine,,,merlot,,0.9444444444444444
+Acacia Road Pinotage,7.0,5.0,7.99,red wine,,,,,0.7142857142857143
+Acacia Road Sauvignon Blanc,14.0,14.0,7.99,white wine,,,,,1.0
+"Agenda, Dão Manager's Choice 2015",87.0,78.0,9.99,red wine,portuguese,old world,,,0.896551724137931
+Alain Grignon Carignan Vieilles Vignes 2016 PGI Pays de l'Hérault,97.0,94.0,7.99,red wine,french,old world,,south of france,0.9690721649484536
+Alamos Lujan De Cuyo Cabernet 2016,15.0,14.0,9.99,red wine,argentinian,new world,,,0.9333333333333333
+Alamos Uco Valley Chardonnay 2016,13.0,13.0,9.99,white wine,argentinian,new world,chardonnay,,1.0
+Alamos Uco Valley Malbec 2016/17,73.0,68.0,9.99,red wine,argentinian,new world,,,0.9315068493150684
+Alamos Uco Valley Viognier 2016,10.0,6.0,9.99,white wine,argentinian,new world,,,0.6
+Amarone Classico ?Vigneti di Roccolo? 2014 Cantina Negrar,49.0,48.0,22.99,red wine,italian,old world,,,0.9795918367346939
+Ammazza Montepulciano 2016,5.0,5.0,9.99,red wine,,,,,1.0
+Ammazza Pinot Grigio IGT,54.0,44.0,9.99,white wine,,,,,0.8148148148148148
+"Antony's Yard 2014 Graham Beck, Western Cape",84.0,72.0,9.99,red wine,south-african,new world,,,0.8571428571428571
+Araldica Fazzoletto Passito 2016,17.0,13.0,11.99,red wine,,,,,0.7647058823529411
+Aresti 'Trisquel' Altitud Merlot 2015,3.0,2.0,16.99,red wine,,,,,0.6666666666666666
+Aresti Bellavista Sauvignon Gris 2017,1.0,0.0,10.99,white wine,,,,,0.0
+Arraigo Benegas Old Vine,4.0,3.0,24.99,red wine,,,,,0.75
+Arraigo Benegas Single Vineyard Blend 2012,7.0,4.0,16.99,red wine,,,,,0.5714285714285714
+Ata Rangi Craighall Chardonnay 2014 Martinborough,2.0,2.0,40.0,fine wine,new-zealand,new world,chardonnay,,1.0
+Au Bon Climat Pinot Noir 'Isabelle' 2013 California,11.0,8.0,55.0,fine wine,,,pinot noir,,0.7272727272727273
+Aurore de Dauzac 2014,1.0,1.0,30.0,fine wine,french,old world,,bordeaux,1.0
+BDX Claret,4.0,4.0,9.99,red wine,,,merlot,,1.0
+Balfour 1503 Brut NV England,12.0,12.0,25.99,white wine,,,chardonnay,,1.0
+Balfour 1503 Rosé NV England,13.0,13.0,25.99,white wine,,,chardonnay,,1.0
+Barbaresco 2014 De Forville,20.0,14.0,17.99,red wine,italian,old world,,,0.7
+Barbera d?Alba Villa de Forville 2016 De Forville,33.0,28.0,13.99,red wine,italian,old world,,,0.8484848484848485
+Barbera d?Asti 2015 De Forville,23.0,19.0,13.99,red wine,italian,old world,,,0.8260869565217391
+Bardolino 'Naiano' 2016 Allegrini,40.0,31.0,9.99,red wine,italian,old world,,,0.775
+Barista Pinotage 2017 Western Cape,161.0,132.0,9.99,red wine,south-african,new world,,,0.8198757763975155
+Barolo 2012 Ciabot Berton,26.0,25.0,30.0,fine wine,italian,old world,,,0.9615384615384616
+Barolo 2012 Natale Verga,26.0,17.0,22.99,red wine,italian,old world,,,0.6538461538461539
+Barolo Araldica 2012,25.0,19.0,17.99,red wine,italian,old world,,,0.76
+Baron Edmond de Rothschild Montagne St Emilion,3.0,3.0,19.99,red wine,french,old world,,bordeaux,1.0
+Beaujolais Lantignié 2016 Louis Jadot,37.0,27.0,11.99,red wine,french,old world,,,0.7297297297297297
+Beefsteak Club Malbec 2016 Mendoza,206.0,171.0,9.99,red wine,argentinian,new world,,,0.8300970873786407
+Bellingham 'The Bernard Series' Old Vine Chenin Blanc 2017 Western Cape,72.0,63.0,13.49,white wine,south-african,new world,,,0.875
+Bellingham 'The Bernard Series' Viognier 2017 Western Cape,60.0,54.0,13.49,white wine,south-african,new world,,,0.9
+Bellingham Pinopasso Pinotage 2015 Coastal Region,58.0,52.0,10.99,red wine,south-african,new world,,,0.896551724137931
+"Ben Marco Malbec 2016/17 Dominio del Plata, Mendoza",86.0,77.0,14.99,red wine,argentinian,new world,,,0.8953488372093024
+Beringer Founders' Estate Cabernet Sauvignon 2012 Central California,6.0,4.0,14.99,red wine,,,,california,0.6666666666666666
+"Beringer Founders' Estate Chardonnay 2015/16, Central and N. California",7.0,7.0,14.99,white wine,,,,california,1.0
+Beringer Knights Valley Napa Cabernet 2015,0.0,0.0,30.0,red wine,,,,,
+Beyerskloof Reserve Pinotage 2016 Western Cape,112.0,104.0,10.99,red wine,south-african,new world,,,0.9285714285714286
+Bienbebido Pulpo Albariño 2016 Vintae,56.0,53.0,8.99,white wine,spanish,old world,,,0.9464285714285714
+Black Cottage Pinot Gris 2016 Marlborough,28.0,26.0,12.99,white wine,new-zealand,new world,,marlborough wine,0.9285714285714286
+Black Cottage Rosé 2016 Marlborough,17.0,17.0,12.99,rose wine,new-zealand,new world,,marlborough wine,1.0
+Black Cottage Sauvignon Blanc 2016 Marlborough,120.0,109.0,11.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9083333333333333
+Blind River Tekau Sauvignon Blanc 2015 Awatere Valley,9.0,7.0,22.0,fine wine,,,sauvignon blanc,,0.7777777777777778
+Bodega Volcanes Carmenere 2016,29.0,24.0,11.99,red wine,chilean,new world,,,0.8275862068965517
+Boschendal Lanoy Sauvignon Blanc 2016 Coastal Region,70.0,59.0,9.99,white wine,south-african,new world,sauvignon blanc,,0.8428571428571429
+Bourgogne Chardonnay 'Les Chenaudières' 2016 Cave de Lugny,67.0,61.0,11.99,white wine,french,old world,,,0.9104477611940298
+Bourgogne Chardonnay Domaine Jomain 2016,5.0,4.0,16.99,white wine,,,,,0.8
+Bourgogne Chardonnay Thibert,2.0,1.0,14.99,white wine,french,old world,,burgundy,0.5
+Bourgogne Côte Chalonnaise 2016 La Buxynoise,9.0,8.0,13.99,white wine,french,old world,,,0.8888888888888888
+Bourgogne Pinot Noir 2015 Louis Latour,25.0,15.0,16.99,red wine,french,old world,pinot noir,,0.6
+Bourgogne Pinot Noir 2015 Nicolas Potel,82.0,68.0,13.99,red wine,french,old world,pinot noir,,0.8292682926829268
+Bouvet Ladubay Saumur NV France,97.0,93.0,12.99,white wine,french,old world,,,0.9587628865979382
+Bouvet Saumur Rosé Brut ,38.0,37.0,12.99,white wine,french,old world,,,0.9736842105263158
+Brancott Estate Sauvignon Blanc 2016 Marlborough,326.0,298.0,10.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9141104294478528
+Brown Brothers Orange Muscat and Flora Half Bottle,16.0,16.0,8.99,white wine,australian,new world,,,1.0
+Caixas Albariño 2016 Rías Baixas,129.0,120.0,9.99,white wine,spanish,old world,,,0.9302325581395349
+Campofiorin 2014 Masi,68.0,58.0,14.99,red wine,italian,old world,,,0.8529411764705882
+Capaia Merlot Cabernet 2015,82.0,72.0,10.99,red wine,south-african,new world,merlot,,0.8780487804878049
+Capo Martino 2012 Jermann,0.0,0.0,50.0,fine wine,italian,old world,,,
+Carlino Bianco 2016,5.0,4.0,5.99,white wine,,,,,0.8
+Carlino Rosso 2016,17.0,13.0,5.99,red wine,italian,old world,,,0.7647058823529411
+Castelnau de Suduiraut 2011 Sauternes,3.0,3.0,13.99,white wine,french,old world,sauvignon blanc,bordeaux,1.0
+Castillo de Albai Rioja,4.0,4.0,8.99,red wine,,,,,1.0
+Catena Barrel Fermented Chardonnay 2016 Mendoza,30.0,26.0,13.99,white wine,argentinian,new world,chardonnay,,0.8666666666666667
+Catena Malbec 2015 Mendoza,198.0,186.0,13.99,red wine,argentinian,new world,malbec,,0.9393939393939394
+Ch. Clos de Vaulicheres Chablis 1er Cru Vaucoupin 2015,0.0,0.0,27.99,fine wine,,,,chablis,
+Chablis 'La Maladière' 2015 William Fèvre,24.0,21.0,16.99,white wine,french,old world,chardonnay,burgundy,0.875
+Chablis 1er Cru 'Montmains' 2013 Vocoret,11.0,11.0,22.99,white wine,french,old world,chardonnay,burgundy,1.0
+Chablis 1er Cru Côte de Léchet 2003 Defaix-Raveneau,2.0,2.0,30.0,fine wine,french,old world,,burgundy,1.0
+Chablis 1er Cru Fourchaume 2016 Séguinot-Bordet,7.0,6.0,25.0,fine wine,french,old world,chardonnay,burgundy,0.8571428571428571
+Chablis 1er Cru Fourchaume Domaine Chatelain,2.0,2.0,27.99,white wine,french,old world,,burgundy,1.0
+Chablis Elodie Duprés 2016,21.0,20.0,16.99,white wine,french,old world,chardonnay,burgundy,0.9523809523809523
+Chablis Grand Acacia J. Moreau & Fils,0.0,0.0,18.99,white wine,french,old world,,burgundy,
+Chablis Vieilles Vignes 2016 Vocoret,12.0,12.0,19.99,white wine,french,old world,,burgundy,1.0
+Champ Libre Chenin Blanc 2016,11.0,7.0,9.99,white wine,french,old world,sauvignon blanc,,0.6363636363636364
+Chandon Brut NV Argentina,29.0,27.0,17.99,white wine,argentinian,new world,chardonnay,,0.9310344827586207
+Chandon Rosé NV Argentina,16.0,16.0,17.99,white wine,,,chardonnay,,1.0
+Chapel Down Brut NV England,44.0,42.0,22.99,white wine,,,chardonnay,,0.9545454545454546
+Charmes De Kirwan 2010,7.0,6.0,35.0,fine wine,french,old world,,bordeaux,0.8571428571428571
+Chateau Cotes De Blaignan 2014 Medoc,10.0,8.0,12.99,red wine,french,old world,merlot,bordeaux,0.8
+Chateau D'Arsac Margaux,0.0,0.0,28.0,red wine,,,,,
+Chateau Musar 2001,0.0,0.0,33.0,fine wine,,,,,
+Chateau Tour Haut Caussan,3.0,2.0,14.99,red wine,,,,,0.6666666666666666
+Chateau Vieux Maillet Pomerol 2007,0.0,0.0,32.0,fine wine,french,old world,,bordeaux,
+Chateau de Chassagne Montrachet 2014,0.0,0.0,39.99,fine wine,,,,,
+Chateau de Fesles Anjou Blanc 2015,0.0,0.0,13.99,white wine,french,old world,,,
+Chianti Classico Riserva 2013 Villa Antinori,4.0,3.0,25.0,fine wine,italian,old world,,,0.75
+Chianti Poggio Galiga 2015 Grati,69.0,55.0,9.99,red wine,italian,old world,,,0.7971014492753623
+Chronic Cellars Eunice X 2015,4.0,3.0,17.99,white wine,,,,,0.75
+Chronic Cellars Purple Paradise 2015 Paso Robles,85.0,76.0,17.99,red wine,,,,,0.8941176470588236
+"Château Cantemerle 2005 Haut-Médoc, 5ème Cru Classé",0.0,0.0,65.0,fine wine,french,old world,merlot,bordeaux,
+Château Chantalouette 2014  Pomerol,12.0,8.0,22.99,red wine,french,old world,,bordeaux,0.6666666666666666
+Château Coufran 2006 Haut-Médoc Cru Bourgeois Supérieur,30.0,22.0,18.99,red wine,french,old world,,bordeaux,0.7333333333333333
+Château D'Yquem 1990 Sauternes,0.0,0.0,450.0,fine wine,french,old world,sauvignon blanc,bordeaux,
+Château Doisy Daene 2005,0.0,0.0,35.0,fine wine,,,,,
+"Château Grand Puy Lacoste 2000 Pauillac, 5ème Cru Classé",0.0,0.0,175.0,fine wine,french,old world,merlot,bordeaux,
+"Château Guiot Rosé 2015 Costières de Nîmes, France",37.0,30.0,8.99,rose wine,french,old world,,,0.8108108108108109
+Château Herve Laroque 2014 Fronsac,23.0,20.0,14.99,red wine,french,old world,,bordeaux,0.8695652173913043
+"Château La Rame 2015 Ste-Croix-du-Mont, 50cl",10.0,10.0,14.99,white wine,french,old world,sauvignon blanc,bordeaux,1.0
+Château Montviel Pomerol 2002,0.0,0.0,35.0,fine wine,french,old world,,bordeaux,
+Château Moulin de Curat 2014,2.0,0.0,12.99,red wine,,,,,0.0
+Château Musar 1998 Gaston Hochar,0.0,0.0,37.0,fine wine,,,,,
+Château Musar 2000 Gaston Hochar,0.0,0.0,33.0,fine wine,,,,,
+Château Musar 2006 Gaston Hochar,55.0,50.0,27.99,red wine,,,,,0.9090909090909091
+Château Musar 2006 Gaston Hochar Magnum,3.0,3.0,54.99,red wine,,,,,1.0
+Château Musar White 2007 Gaston Hochar,18.0,10.0,22.0,fine wine,,,,,0.5555555555555556
+Château Méaume 2013 Bordeaux Supérieur,119.0,95.0,11.99,red wine,french,old world,merlot,bordeaux,0.7983193277310925
+"Château Pierbone 2006, Médoc",21.0,17.0,11.99,red wine,french,old world,,bordeaux,0.8095238095238095
+Château Pierrousselle 2015,6.0,4.0,8.99,red wine,french,old world,,,0.6666666666666666
+Château Pigoudet ?La Chapelle? Rosé 2016 Coteaux d?Aix-en-Provence,35.0,33.0,12.99,rose wine,french,old world,,,0.9428571428571428
+Château Recougne 2015 Bordeaux Supérieur,107.0,89.0,9.99,red wine,french,old world,merlot,bordeaux,0.8317757009345794
+Château Tour Massac Margaux  2010,0.0,0.0,35.0,red wine,french,old world,,bordeaux,
+Château Tronquoy-Lalande St Estephe 2013,2.0,2.0,29.99,fine wine,french,old world,,bordeaux,1.0
+Château de Berne Rosé 2016 Côtes de Provence,76.0,64.0,15.99,rose wine,french,old world,,,0.8421052631578947
+Château de Pennautier 2015 Cabardès,46.0,38.0,11.99,red wine,french,old world,merlot,south of france,0.8260869565217391
+Château de Tracy 2016 Pouilly-Fumé,8.0,8.0,25.0,fine wine,french,old world,,,1.0
+Château des Maures 2015 Lalande de Pomerol,9.0,5.0,15.99,red wine,french,old world,,bordeaux,0.5555555555555556
+Château d?Yquem 1988 Sauternes,2.0,2.0,480.0,fine wine,french,old world,sauvignon blanc,bordeaux,1.0
+Châteauneuf du Pape Prestige De Princes 2015,7.0,6.0,21.99,red wine,french,old world,,,0.8571428571428571
+Châteauneuf-du-Pape 2012 Clos de L'Oratoire,3.0,3.0,61.99,red wine,french,old world,,,1.0
+Châteauneuf-du-Pape Vignoble Abeille 2014 Mont Redon,13.0,13.0,28.0,fine wine,french,old world,,,1.0
+Cillar De Silos Amalio 2014,0.0,0.0,50.0,fine wine,,,,,
+Cillar de Silos Crianza 2014 Ribera del Duero,36.0,30.0,19.99,red wine,spanish,old world,tempranillo,,0.8333333333333334
+Clos du Bois Chardonnay 2015 North Coast,18.0,16.0,16.99,white wine,,,chardonnay,california,0.8888888888888888
+Cloudy Bay Pelorus NV,52.0,45.0,24.99,white wine,new-zealand,new world,,,0.8653846153846154
+Cloudy Bay Pelorus Rosé NV New Zealand,11.0,10.0,24.99,white wine,new-zealand,new world,chardonnay,,0.9090909090909091
+Cloudy Bay Sauvignon Blanc 2017 Marlborough,76.0,71.0,25.99,white wine,new-zealand,new world,,marlborough wine,0.9342105263157895
+Commanderie de Peyrassol Rosé 2016 Côtes de Provence,19.0,16.0,13.99,rose wine,french,old world,,,0.8421052631578947
+Conde de San Cristobal 2014 Ribera del Duero,13.0,11.0,16.99,red wine,spanish,old world,tempranillo,,0.8461538461538461
+Contesa Pecorino 2016 IGT Colline Pescaresi,62.0,57.0,9.99,white wine,italian,old world,,,0.9193548387096774
+Copertino 2013 Masseria Monaci,55.0,47.0,9.99,red wine,italian,old world,,,0.8545454545454545
+Corolla Nero d'Avola 2016 Sicily,86.0,76.0,8.99,red wine,italian,old world,,,0.8837209302325582
+"Cortese 2017 Araldica, Piemonte",10.0,9.0,8.99,white wine,italian,old world,,,0.9
+"Craggy Range Te Kahu 2013 Gimblett Gravels, Hawke's Bay",12.0,11.0,17.99,red wine,new-zealand,new world,merlot,,0.9166666666666666
+"Cuvée Diane 2012 Viñalba, Mendoza",9.0,8.0,40.0,fine wine,argentinian,new world,,,0.8888888888888888
+Cuvée Sainte Geneviève Rouge nv Vin de France,23.0,14.0,6.99,red wine,french,old world,,south of france,0.6086956521739131
+Côte de Beaune-Villages 2014 Louis Jadot,18.0,13.0,21.49,red wine,french,old world,pinot noir,burgundy,0.7222222222222222
+Côte de Nuits-Villages 2014 Nicolas Potel,20.0,16.0,19.99,red wine,french,old world,pinot noir,,0.8
+Côtes du Rhône 2014 E. Guigal,196.0,183.0,12.99,red wine,french,old world,,,0.9336734693877551
+Côtes du Rhône 2015 Vidal-Fleury,54.0,49.0,11.99,red wine,french,old world,,,0.9074074074074074
+Côtes du Rhône Belleruche 2016 M.Chapoutier,155.0,140.0,11.99,red wine,french,old world,,,0.9032258064516129
+Côtes-Du-Rhône 2016 Les Fustiers,57.0,44.0,8.99,red wine,french,old world,,,0.7719298245614035
+Côtes-du-Rhône Blanc 2016 Léon Perdigal,22.0,20.0,9.99,white wine,french,old world,,,0.9090909090909091
+Côté Mas Rouge 2016 PGI Pays d'Oc,40.0,34.0,7.99,red wine,french,old world,merlot,south of france,0.85
+"Days of Summer 2016 Miguel Torres, Itata Valley",23.0,20.0,8.99,white wine,chilean,new world,,,0.8695652173913043
+"Decoy Zinfandel 2015 Duckhorn, Sonoma County",13.0,11.0,25.0,red wine,,,,california,0.8461538461538461
+Definition Albarino 2016,21.0,21.0,11.99,white wine,spanish,old world,,,1.0
+Definition Beaujolais Villages 2016,33.0,29.0,11.99,red wine,french,old world,,,0.8787878787878788
+Definition Chardonnay 2016,55.0,51.0,11.99,white wine,french,old world,,south of france,0.9272727272727272
+Definition Chenin Blanc 2017,18.0,17.0,12.99,white wine,south-african,new world,,,0.9444444444444444
+Definition Chianti Classico 2013,40.0,32.0,12.99,red wine,italian,old world,,,0.8
+Definition Claret 2012,43.0,30.0,13.99,red wine,french,old world,merlot,bordeaux,0.6976744186046512
+Definition Côtes Du Rhône 2016,84.0,70.0,10.99,red wine,french,old world,,,0.8333333333333334
+Definition Gavi DOCG 2017,0.0,0.0,11.99,white wine,italian,old world,,,
+Definition Gruner Veltliner 2017,7.0,7.0,10.99,white wine,,,,,1.0
+Definition Marlborough Pinot Noir 2016,39.0,38.0,15.99,red wine,new-zealand,new world,,marlborough wine,0.9743589743589743
+Definition Marlborough Sauvignon Blanc 2016,61.0,55.0,10.99,white wine,new-zealand,new world,,marlborough wine,0.9016393442622951
+Definition Medoc Claret,0.0,0.0,11.99,red wine,,,,,
+Definition Pinot Grigio 2016,32.0,28.0,11.99,white wine,italian,old world,,,0.875
+Definition Provence Rosé 2016,7.0,5.0,11.99,rose wine,,,,,0.7142857142857143
+Definition Shiraz 2016,25.0,21.0,12.99,red wine,australian,new world,,,0.84
+Definition Viognier,51.0,41.0,10.99,white wine,french,old world,,south of france,0.803921568627451
+Definition Zinfandel 2016,133.0,130.0,9.99,red wine,,,,california,0.9774436090225563
+"Dehesa Gago, Tinta de Toro 2016",1.0,1.0,14.99,red wine,,,,,1.0
+Devil's Creek Marlborough Sauvignon Blanc 2016,119.0,109.0,9.99,white wine,new-zealand,new world,,marlborough wine,0.9159663865546218
+Devil's Creek Pinot Noir,5.0,2.0,11.99,red wine,new-zealand,new world,,marlborough wine,0.4
+Diemersdal Gruner Veltliner 2017 Durbanville,12.0,10.0,11.99,white wine,south-african,new world,,,0.8333333333333334
+Dogajolo Carpineto 2015 Toscana,77.0,66.0,11.99,red wine,italian,old world,,,0.8571428571428571
+Dolcetto d?Alba 2015 De Forville,21.0,16.0,11.99,red wine,italian,old world,,,0.7619047619047619
+Domaine Bouzereau Gruere Puligny Montrachet 2015,0.0,0.0,43.0,fine wine,,,chardonnay,,
+Domaine Chatelain Chablis 2015,5.0,4.0,17.99,white wine,french,old world,chardonnay,burgundy,0.8
+Domaine Compostelle Pomerol 2011,1.0,1.0,26.99,red wine,french,old world,,bordeaux,1.0
+Domaine La Chautarde Rosé 2016/17 Côteaux Varois en Provence,98.0,89.0,9.99,rose wine,french,old world,,,0.9081632653061225
+Domaine Les Yeuses 'Les Epices' Syrah 2015 PGI Pays d'Oc,57.0,46.0,9.99,red wine,french,old world,,south of france,0.8070175438596491
+Domaine Martin St Veran 'Les Maillettes' 2015,6.0,6.0,17.99,white wine,,,,,1.0
+Domaine Pardon Julienas 2016,7.0,5.0,12.99,red wine,french,old world,,,0.7142857142857143
+Domaine Saint Ferréol Viognier 2015 PGI Pays d'Oc,26.0,26.0,13.99,white wine,french,old world,,south of france,1.0
+Domaine de Villargeau 2016 Côteaux du Giennois,58.0,54.0,12.99,white wine,french,old world,sauvignon blanc,,0.9310344827586207
+"Domaine de Villemajou 2015 Corbières Boutenac, Gérard Bertrand",28.0,25.0,16.99,red wine,french,old world,,south of france,0.8928571428571429
+Domaine du Vaux Chenonceaux 2016,4.0,2.0,14.99,white wine,french,old world,,,0.5
+Doudet Naudin Bouzeron Aligote,2.0,2.0,14.99,white wine,,,,,1.0
+Dourthe Réserve Sauvignon Blanc 2016 Bordeaux Blanc Sec,28.0,23.0,11.99,white wine,french,old world,sauvignon blanc,bordeaux,0.8214285714285714
+Dr Loosen Blue Slate Riesling BA,0.0,0.0,19.99,white wine,,,,,
+Dr Loosen Slate Hill Riesling 2016,32.0,24.0,10.99,white wine,,,riesling,,0.75
+Dreams Chardonnay 2014 Jermann,0.0,0.0,42.0,fine wine,italian,old world,chardonnay,,
+Duc de Belmont Côteaux Bourguignons 2015 Loron et Fils,20.0,19.0,11.49,red wine,french,old world,,,0.95
+Edna Valley Chardonnay 2015,74.0,69.0,15.99,white wine,,,chardonnay,,0.9324324324324325
+Edna Valley Pinot Noir 2015,92.0,87.0,15.99,red wine,,,pinot noir,,0.9456521739130435
+Emilio Moro 2015 Ribera del Duero,78.0,74.0,17.99,red wine,spanish,old world,tempranillo,,0.9487179487179487
+Errazuriz Estate Series Carmenère 2016 Aconcagua Valley,108.0,96.0,9.99,red wine,chilean,new world,,,0.8888888888888888
+Errazuriz Estate Series Chardonnay 2016 Casablanca Valley,58.0,52.0,9.99,white wine,chilean,new world,chardonnay,,0.896551724137931
+Errazuriz Estate Series Merlot 2016 Valle de Curicó,51.0,46.0,9.99,red wine,chilean,new world,merlot,,0.9019607843137255
+Errazuriz Sauvignon Blanc 2017 Casablanca Valley,80.0,70.0,9.99,white wine,chilean,new world,,,0.875
+Errazuriz Single Vineyard Sauvignon Blanc 2016 Casablanca Valley,43.0,40.0,11.99,white wine,chilean,new world,sauvignon blanc,,0.9302325581395349
+Escarpment Kiwa 2015,0.0,0.0,34.0,red wine,new-zealand,new world,,,
+Escarpment Te Rehua 2013,0.0,0.0,70.0,fine wine,,,,,
+Esprit de Begude Pinot Noir 2013 Haute Vallée de L'Aude,10.0,10.0,17.99,red wine,french,old world,pinot noir,,1.0
+Esprit de Pennautier 2014 Cabardes,18.0,18.0,24.99,red wine,french,old world,,south of france,1.0
+Excellence Ormarine Picpoul,8.0,7.0,10.99,white wine,french,old world,,,0.875
+Fairbourne Sauvignon Blanc 2016 Marlborough,13.0,10.0,16.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.7692307692307693
+Falanghina 2016 Terredora,41.0,38.0,12.99,white wine,italian,old world,,,0.926829268292683
+Fattori Soave 2016,19.0,19.0,9.99,white wine,italian,old world,,,1.0
+Faustino 1 Gran Reserva 1994 Rioja,18.0,18.0,37.5,fine wine,spanish,old world,tempranillo,rioja,1.0
+Faustino 1 Gran Reserva 2005 Rioja,18.0,17.0,22.99,red wine,spanish,old world,tempranillo,rioja,0.9444444444444444
+Ferraton Cotes du Rhone Villages Signargues,0.0,0.0,11.99,red wine,,,,,
+Filsell Shiraz 2015,1.0,1.0,27.99,red wine,australian,new world,,,1.0
+Finca Carelio Tempranillo 2015 Vino de la Tierra,204.0,187.0,9.99,red wine,spanish,old world,,,0.9166666666666666
+Finca Dofi 2014 Alvaro Palacio,0.0,0.0,90.0,fine wine,,,,,
+Fine Wine Aficionado Case x6,0.0,0.0,205.0,fine wine,,,,,
+First Class Pinot Noir 2015 Bio Bio Valley,80.0,64.0,7.99,red wine,chilean,new world,pinot noir,,0.8
+Fleurie Lafayette 2015,2.0,2.0,12.99,red wine,,,,,1.0
+Flowers 'Camp Meeting Ridge'  Chardonnay 2013 Sonoma Coast,0.0,0.0,120.0,fine wine,,,,california,
+Flowers Camp Ridge Pinot Noir 2013,0.0,0.0,120.0,fine wine,,,pinot noir,california,
+Flowers Sonoma Coast Pinot Noir 2016,0.0,0.0,60.0,fine wine,,,,california,
+Frankland Estate Riesling 2016,1.0,1.0,15.99,white wine,,,,,1.0
+Gavi 2016 Araldica,62.0,58.0,9.99,white wine,italian,old world,,,0.9354838709677419
+Gavi 2016 La Toledana,145.0,130.0,14.99,white wine,italian,old world,,,0.896551724137931
+Geoffrey Martin St Veran,4.0,4.0,16.99,white wine,,,chardonnay,,1.0
+Gewürztraminer 'Les Princes Abbés' 2015 Domaines Schlumberger,17.0,17.0,16.99,white wine,french,old world,,,1.0
+Giesen Sauvignon Blanc 2016 Marlborough,161.0,142.0,9.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.8819875776397516
+Gigondas Carobelle,0.0,0.0,17.99,white wine,,,,,
+Glenelly Lady May 2010,0.0,0.0,35.0,fine wine,south-african,new world,,,
+"Gnarly Dudes Shiraz 2016 Two Hands, Barossa Valley",39.0,37.0,21.99,red wine,australian,new world,,,0.9487179487179487
+Goldwater Sauvignon Blanc 2016 Marlborough,126.0,114.0,11.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9047619047619048
+Governo Toscana IGT,13.0,11.0,11.99,red wine,,,,,0.8461538461538461
+Graham Beck Brut Rosé NV,32.0,31.0,14.99,white wine,south-african,new world,chardonnay,,0.96875
+Graham Norton's Own Sauvignon Blanc 2016 Marlborough,137.0,129.0,10.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9416058394160584
+Gran Volante Tinto 2016,9.0,7.0,9.99,red wine,spanish,old world,tempranillo,,0.7777777777777778
+Grato Grati Rosso di Toscana 1991,39.0,33.0,29.99,fine wine,italian,old world,,,0.8461538461538461
+Guado al Tasso 2014 Bolgheri Antinori,0.0,0.0,100.0,fine wine,italian,old world,merlot,,
+Hardys Tintara Sangiovese,0.0,0.0,15.0,red wine,australian,new world,,,
+Haut Poitou Sauvignon Blanc 2016 Pierre Sauvion,28.0,27.0,9.99,white wine,french,old world,sauvignon blanc,,0.9642857142857143
+Haut Vol Rosé 2016 Vin de France,54.0,49.0,8.99,rose wine,french,old world,,,0.9074074074074074
+Heggies Chardonnay 2013 Eden Valley,10.0,9.0,17.99,white wine,australian,new world,chardonnay,,0.9
+"Hey Malbec! 2017 Matias Riccitelli, Mendoza",179.0,162.0,12.99,red wine,argentinian,new world,,,0.9050279329608939
+Historialis Cahors Malbec 2016,1.0,1.0,11.99,red wine,,,,,1.0
+Hospices de Beaujeu 2015,9.0,9.0,11.49,red wine,french,old world,,,1.0
+Incanta Pinot Noir 2016,78.0,67.0,7.99,red wine,,,pinot noir,,0.8589743589743589
+"Invivo Sauvignon Blanc 2017 Awatere Valley, Marlborough",66.0,62.0,11.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9393939393939394
+Jaboulet Syrah 2013,8.0,6.0,11.99,red wine,french,old world,,,0.75
+"Kaiken Seleccion Especial Malbec 2016, Mendoza",74.0,68.0,9.99,red wine,,,,,0.918918918918919
+Kangarilla Road Chardonnay 2016 Adelaide Hills,16.0,11.0,13.99,white wine,australian,new world,,,0.6875
+Kangarilla Road Primitivo 2015,8.0,7.0,13.99,red wine,australian,new world,,,0.875
+Kangarilla Road Shiraz 2016 McLaren Vale,114.0,108.0,13.99,red wine,australian,new world,,,0.9473684210526315
+Kanonkop Cabernet Sauvignon 2012 Stellenbosch,14.0,12.0,28.0,fine wine,south-african,new world,,,0.8571428571428571
+Kanonkop Kadette Pinotage 2016,4.0,4.0,13.99,red wine,,,,,1.0
+Kanonkop Pinotage 2015 Stellenbosch,22.0,20.0,28.0,fine wine,south-african,new world,,,0.9090909090909091
+Klein Constantia Sauvignon Blanc 2016 Constantia,24.0,22.0,13.99,white wine,south-african,new world,sauvignon blanc,,0.9166666666666666
+Krasno Sauvignon Blanc Ribolla 2016,124.0,112.0,8.99,white wine,,,sauvignon blanc,,0.9032258064516129
+Kuhlmann-Platz Pinot Blanc 2016 Cave de Hunawihr,11.0,11.0,11.99,white wine,french,old world,,,1.0
+Kuhlmann-Platz Riesling 2016 Cave de Hunawihr,27.0,25.0,11.99,white wine,french,old world,riesling,,0.9259259259259259
+L'Etoile de Begude Chardonnay 2016 Limoux,24.0,23.0,15.99,white wine,french,old world,,,0.9583333333333334
+L'Extra par Langlois Brut NV Crémant de Loire,38.0,35.0,13.99,white wine,french,old world,chardonnay,,0.9210526315789473
+L'Extra par Langlois Rosé NV Crémant de Loire,20.0,20.0,13.99,white wine,french,old world,,,1.0
+LA Spinetta Barbaresco Valeirano 2011,0.0,0.0,130.0,fine wine,,,,,
+La Baume Grande Olivette Malbec 2015,50.0,45.0,7.99,red wine,french,old world,malbec,south of france,0.9
+"La Baume La Grande Olivette, Chenin Blanc Vdf",4.0,2.0,7.99,white wine,,,,south of france,0.5
+La Belle Angele Rose 2017,2.0,2.0,8.99,rose wine,,,,,1.0
+La Belle Angele Sauvignon Blanc 2016,53.0,48.0,8.99,white wine,french,old world,sauvignon blanc,,0.9056603773584906
+La Font Reserva 2011 Valencia,43.0,36.0,6.99,red wine,spanish,old world,,,0.8372093023255814
+La Garnacha 2015 Salvaje del Moncayo,53.0,50.0,9.99,red wine,spanish,old world,,,0.9433962264150944
+La Grange des Combes 2015 AOC St-Chinian-Roquebrun,70.0,67.0,12.99,red wine,french,old world,,south of france,0.9571428571428572
+La Marotte,0.0,0.0,9.99,red wine,,,,,
+La Réserve de Léoville-Barton 2014 St-Julien,18.0,12.0,36.0,fine wine,french,old world,,bordeaux,0.6666666666666666
+La Spinetta Barbaresco Starderi 2011,0.0,0.0,125.0,fine wine,italian,old world,,,
+La Spinetta Gallina 2011,0.0,0.0,130.0,fine wine,italian,old world,,,
+La Spinetta Starderi 2013,0.0,0.0,130.0,fine wine,italian,old world,,,
+La Spinetta Valeirano 2013,0.0,0.0,130.0,fine wine,italian,old world,,,
+La Vieille Ferme 2016 Perrin et Fils,45.0,38.0,8.99,red wine,french,old world,,,0.8444444444444444
+Ladoix Rouge 1er Cru 'Les Corvées' 2013 Domaine Chevalier,2.0,2.0,30.0,fine wine,french,old world,pinot noir,,1.0
+Lady Sauvignon 2016 Casablanca Valley,34.0,30.0,7.99,white wine,chilean,new world,sauvignon blanc,,0.8823529411764706
+Langhe Nebbiolo 2016 De Forville,24.0,21.0,11.99,red wine,italian,old world,,,0.875
+Laroche Chablis 1er Forneaux 2015,0.0,0.0,30.0,fine wine,,,,chablis,
+Las Maletas Malbec 2017 Mendoza,149.0,134.0,8.99,red wine,argentinian,new world,malbec,,0.8993288590604027
+Lastarria Malbec 2016,24.0,21.0,7.99,red wine,chilean,new world,malbec,,0.875
+Lay & Wheeler Barolo 2011,3.0,2.0,30.0,fine wine,italian,old world,,,0.6666666666666666
+Lay & Wheeler Brunello di Montalcino 2011,6.0,6.0,32.0,fine wine,italian,old world,,,1.0
+Lay & Wheeler Chablis 2014,3.0,0.0,30.0,fine wine,french,old world,chardonnay,burgundy,0.0
+Lay & Wheeler Cote d'Or Les Charmes,1.0,0.0,45.0,fine wine,french,old world,,burgundy,0.0
+Lay & Wheeler St Emilion 2014,6.0,2.0,24.99,fine wine,french,old world,,bordeaux,0.3333333333333333
+Lay and Wheeler Rioja Gran Reserva 2008,18.0,16.0,30.0,fine wine,spanish,old world,tempranillo,rioja,0.8888888888888888
+Le Palajo Limoux Chardonnay 2015 Dom de la Metairie d'Alon,8.0,8.0,22.99,white wine,french,old world,chardonnay,,1.0
+Le Volte dell' Ornellaia 2015,11.0,10.0,23.99,red wine,italian,old world,merlot,,0.9090909090909091
+Les Pagodes de Cos 2005 St-Estèphe,0.0,0.0,80.0,fine wine,french,old world,merlot,bordeaux,
+Les Roitelieres Muscadet Serve et Maine 2017,1.0,1.0,9.99,white wine,,,,,1.0
+Lirac 2016 Domaine des Garrigues,26.0,23.0,11.99,red wine,french,old world,,,0.8846153846153846
+Lorgeril Chardonnay,1.0,0.0,11.99,white wine,,,,south of france,0.0
+Louis Latour Pouilly Vinzelles,1.0,1.0,22.99,white wine,french,old world,,burgundy,1.0
+Louison Rose 2016 Coteaux D'Aix En Provence,8.0,8.0,9.99,rose wine,,,,,1.0
+Luis Felipe Edwards Gran Reserva Chardonnay 2017 Casablanca Valley,105.0,98.0,9.99,white wine,chilean,new world,,,0.9333333333333333
+Luis Felipe Edwards Gran Reserva Merlot 2015 Colchagua Valley,94.0,89.0,9.99,red wine,chilean,new world,merlot,,0.9468085106382979
+Luis Felipe Edwards Signature Series Syrah Reserva 2016 Central Valley,40.0,34.0,7.99,red wine,chilean,new world,,,0.85
+Luis Felipe Edwards Signature Series Viognier Reserva 2017 Rapel Valley,62.0,50.0,7.99,white wine,chilean,new world,,,0.8064516129032258
+M de Minuty Magnum Rosé 2016 Côtes de Provence,2.0,2.0,29.99,rose wine,french,old world,,,1.0
+M de Minuty Rosé 2016 Côtes de Provence,130.0,114.0,13.99,rose wine,french,old world,,,0.8769230769230769
+Majestic Loves Chardonnay 2016,12.0,9.0,6.99,white wine,south-african,new world,chardonnay,,0.75
+Majestic Loves Fizz,32.0,31.0,7.99,white wine,,,,,0.96875
+Majestic Loves Gruner Veltliner 2016,61.0,52.0,6.99,white wine,,,,,0.8524590163934426
+Majestic Loves Merlot 2016,34.0,29.0,6.99,red wine,,,,,0.8529411764705882
+Majestic Loves Montepulciano 2016,53.0,41.0,6.99,red wine,italian,old world,,,0.7735849056603774
+Majestic Loves Pinot Grigio 2016,36.0,30.0,6.99,white wine,,,,,0.8333333333333334
+Majestic Loves Rose 2016,16.0,10.0,6.99,rose wine,italian,old world,,,0.625
+Majestic Loves Sauvignon 2017,30.0,28.0,6.99,white wine,chilean,new world,sauvignon blanc,,0.9333333333333333
+Majestic Loves Shiraz 2016,27.0,21.0,6.99,red wine,australian,new world,,,0.7777777777777778
+Majestic Loves Spanish Red 2016,64.0,56.0,6.99,red wine,spanish,old world,tempranillo,rioja,0.875
+Marchesi Antinori Chianti Classico 2014 Tenuta Tignanello,1.0,1.0,35.0,fine wine,italian,old world,,,1.0
+Marea Chardonnay 2016,1.0,1.0,15.99,white wine,,,,,1.0
+Marea Syrah 2012,3.0,3.0,15.99,red wine,,,,,1.0
+Marlborough Ridge Sauvignon Blanc 2016 Giesen,132.0,123.0,8.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9318181818181818
+Marques Tertiaro Gran Reservado 2011,44.0,34.0,8.99,red wine,spanish,old world,tempranillo,rioja,0.7727272727272727
+Marquis de Belleville 2014 Bordeaux Supérieur,59.0,49.0,7.99,red wine,french,old world,merlot,bordeaux,0.8305084745762712
+Marquis de Pennautier Viognier 2016 PGI Pays d'Oc,50.0,39.0,10.99,white wine,french,old world,,south of france,0.78
+"Mas de la Dona, Cotes de Roussillon Villages 2017",0.0,0.0,11.99,red wine,french,old world,,,
+Massey Dacta Sauvignon Blanc 2016 Marlborough,26.0,24.0,12.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9230769230769231
+Massolino Barolo 2012 Piedmont,2.0,0.0,60.0,fine wine,italian,old world,,,0.0
+Matsu El Viejo 2015 Toro,46.0,45.0,24.99,red wine,spanish,old world,tempranillo,,0.9782608695652174
+Mendel Selection Malbec 2015,8.0,7.0,22.99,red wine,argentinian,new world,malbec,,0.875
+Meursault 2013 Château de Puligny-Montrachet,0.0,0.0,60.0,fine wine,,,,,
+Minuty Cuvée Prestige 2016 Côtes de Provence,20.0,18.0,17.99,rose wine,french,old world,,,0.9
+Miraval Rosé 2016 Côtes de Provence,27.0,23.0,19.99,rose wine,french,old world,,,0.8518518518518519
+Mister Shiraz 2016 Colchagua Valley,44.0,39.0,7.99,red wine,chilean,new world,,,0.8863636363636364
+Mon Plaisir de la Vallee Cabernet Franc 2015,6.0,4.0,8.99,red wine,french,old world,,,0.6666666666666666
+Mon Plaisir du Sud Blanc 2016,9.0,7.0,7.99,white wine,french,old world,,south of france,0.7777777777777778
+Mon Plaisir du Sud Rouge 2016,15.0,14.0,7.99,red wine,french,old world,,south of france,0.9333333333333333
+Mont Saint Jean 2016 Corbières,80.0,65.0,7.99,red wine,french,old world,,,0.8125
+Montagny 1er Cru 'Les Millières' 2016 Cave des Vignerons de Buxy,188.0,177.0,13.99,white wine,french,old world,,,0.9414893617021277
+Montagny Vieilles Vignes 2014 Buxy,21.0,20.0,11.99,white wine,french,old world,,,0.9523809523809523
+Montepulciano d'Abruzzo 2015 Masciarelli,43.0,41.0,11.99,red wine,italian,old world,,,0.9534883720930233
+Montepulciano d'Abruzzo 2016 Grifone,230.0,187.0,6.99,red wine,italian,old world,,,0.8130434782608695
+Montes Twins 2015 Colchagua Valley,31.0,29.0,9.99,red wine,chilean,new world,,,0.9354838709677419
+Morande M Chardonnay 2016,44.0,40.0,8.99,white wine,chilean,new world,chardonnay,,0.9090909090909091
+Morande M Pinot Noir 2016,23.0,13.0,8.99,red wine,chilean,new world,,,0.5652173913043478
+Morande Reserva One to One Pais 2016,28.0,23.0,8.99,red wine,chilean,new world,,,0.8214285714285714
+Morandé one to one Gewurztraminer 2017,48.0,45.0,8.99,white wine,chilean,new world,,,0.9375
+"Mountain View Carmenère 2016 Luis Felipe Edwards, Central Valley",54.0,45.0,6.99,red wine,chilean,new world,,,0.8333333333333334
+Mud House Claim 431 Pinot Noir 2014 Central Otago,8.0,5.0,16.99,red wine,new-zealand,new world,pinot noir,,0.625
+Mud House Pinot Noir 2015 Central Otago,27.0,23.0,14.99,red wine,new-zealand,new world,pinot noir,,0.8518518518518519
+Mud House Sauvignon Blanc 2016/17 Marlborough,339.0,322.0,9.49,white wine,new-zealand,new world,,marlborough wine,0.9498525073746312
+Muscadet 2014/13 Le Pallet,34.0,32.0,13.99,white wine,french,old world,,,0.9411764705882353
+Muscadet 2016 Jean Sablenay,52.0,45.0,7.99,white wine,french,old world,,,0.8653846153846154
+Muscadet de Sèvre et Maine Sur Lie 2016 Domaine de la Tourmaline,87.0,79.0,8.99,white wine,french,old world,,,0.9080459770114943
+Mâcon Rouge 'Les Roches Rouges' 2015 Louis Jadot,69.0,60.0,13.99,red wine,french,old world,pinot noir,,0.8695652173913043
+Mâcon-Fuissé Vieilles Vignes 2016 Christophe Cordier,6.0,4.0,16.99,white wine,french,old world,chardonnay,,0.6666666666666666
+Mâcon-Lugny 2015/16 Domaine des Terres Gentilles,45.0,41.0,11.49,white wine,french,old world,,,0.9111111111111111
+Mâcon-Lugny 2015/2016 Louis Latour,292.0,274.0,12.99,white wine,french,old world,,,0.9383561643835616
+Mâcon-Villages 'Les Roches Blanches' 2016 Louis Jadot,138.0,126.0,12.99,white wine,french,old world,chardonnay,,0.9130434782608695
+Mâcon-Villages 2015 Domaine Des Maréchaudes,33.0,29.0,9.99,white wine,french,old world,chardonnay,,0.8787878787878788
+Mâcon-Villages Blanc 'Les Pierres Blanches' 2016 Cave de Lugny,232.0,214.0,11.49,white wine,french,old world,chardonnay,,0.9224137931034483
+Nero Oro Appassimento 2016,86.0,76.0,9.99,red wine,italian,old world,,,0.8837209302325582
+Nettie Viognier 2016 ,45.0,40.0,8.99,white wine,,,,,0.8888888888888888
+Nord Est Vermentino 2016 Cantina del Vermentino,28.0,25.0,9.99,white wine,italian,old world,,,0.8928571428571429
+Nyetimber Classic Cuvée NV England,55.0,52.0,36.99,white wine,,,chardonnay,,0.9454545454545454
+Nyetimber Rose NV,6.0,6.0,44.99,white wine,,,,,1.0
+Oyster Bay Chardonnay 2016 Marlborough,36.0,32.0,10.49,white wine,new-zealand,new world,chardonnay,marlborough wine,0.8888888888888888
+Oyster Bay Merlot 2015 Hawke's Bay,54.0,46.0,10.49,red wine,new-zealand,new world,merlot,,0.8518518518518519
+Oyster Bay Sauvignon Blanc 2017 Marlborough,400.0,383.0,10.49,white wine,new-zealand,new world,,marlborough wine,0.9575
+Papa Luna 2014 Calatayud,28.0,23.0,9.99,red wine,spanish,old world,,,0.8214285714285714
+Parcel Series English Fizz,13.0,11.0,29.99,white wine,,,,,0.8461538461538461
+"Parrilla Malbec 2015 Viñalba, Mendoza",118.0,106.0,9.99,red wine,argentinian,new world,,,0.8983050847457628
+Paso Creek Cabernet Sauvignon 2015 Paso Robles,47.0,45.0,16.99,red wine,,,,,0.9574468085106383
+Passimento 2015 Pasqua,247.0,235.0,11.99,red wine,italian,old world,merlot,,0.951417004048583
+Passimento Bianco 2016 Pasqua,89.0,80.0,11.99,white wine,italian,old world,,,0.898876404494382
+Paul Mas Estate Marsanne 'La Forge Vineyard' 2016 PGI Pays d?Oc,45.0,37.0,10.99,white wine,french,old world,,south of france,0.8222222222222222
+Paul Mas Merlot 2016 PGI Pays d'Oc,20.0,18.0,9.99,red wine,french,old world,merlot,south of france,0.9
+Peirano Estate Old Vine Zinfandel 2015 Lodi,37.0,36.0,15.99,red wine,,,,california,0.972972972972973
+Peller Cabernet Franc Icewine 2013 Niagara Peninsula Half Bottle,0.0,0.0,50.0,fine wine,,,,,
+Peller Estates Riesling Icewine 2013 Niagara Peninsula,2.0,1.0,40.0,fine wine,,,riesling,,0.5
+Penfolds Bin A 2012,0.0,0.0,75.0,fine wine,australian,new world,chardonnay,,
+Penfolds Magill 2015,0.0,0.0,135.0,fine wine,,,,,
+Penfolds Magill Estate 2003,2.0,2.0,260.0,fine wine,australian,new world,,,1.0
+Penfolds RWT Shiraz 2014 Magnum,0.0,0.0,210.0,fine wine,australian,new world,,,
+Penfolds Yattarna 2015,0.0,0.0,150.0,fine wine,,,,,
+Penfolds Yattarna Chardonnay 2013,2.0,2.0,125.0,fine wine,australian,new world,chardonnay,,1.0
+Peter & Ulrich Dry Riesling 2015/2016,47.0,45.0,12.99,white wine,,,,,0.9574468085106383
+Peter Lehmann Riesling 2015 Eden Valley,39.0,31.0,11.99,white wine,australian,new world,riesling,,0.7948717948717948
+Petit Chablis 2015 Séguinot-Bordet,7.0,5.0,15.99,white wine,french,old world,chardonnay,burgundy,0.7142857142857143
+Petit Perdigal Rouge 2016,29.0,26.0,7.99,red wine,french,old world,,,0.896551724137931
+Pierre Usseglio CDR,4.0,4.0,14.99,red wine,french,old world,,,1.0
+Pietrariccia Fiano 2016 Surani,76.0,71.0,9.99,white wine,italian,old world,,,0.9342105263157895
+Pinot Grigio Rosé 2016 Breganze,158.0,139.0,8.99,rose wine,italian,old world,,,0.879746835443038
+Pinot Grigio Superiore 2016 Breganze,142.0,120.0,8.49,white wine,italian,old world,,,0.8450704225352113
+Pinot Grigio Villa Vito 2016,22.0,16.0,7.99,white wine,italian,old world,,,0.7272727272727273
+Pinot Noir Domaine de Valmoissine 2014/15 Louis Latour,77.0,61.0,13.99,red wine,french,old world,,south of france,0.7922077922077922
+Pizarras de Otero 2015 Bierzo,51.0,45.0,8.49,red wine,spanish,old world,,,0.8823529411764706
+Pizarras de Otero Rosé 2016 Bierzo,27.0,26.0,8.49,rose wine,spanish,old world,,,0.9629629629629629
+Planeta 2016 Cometa,8.0,7.0,28.0,fine wine,italian,old world,,,0.875
+Porcupine Ridge Chenin 2016,6.0,6.0,9.99,white wine,,,,,1.0
+Porcupine Ridge Syrah Viognier 2015 Western Cape,66.0,57.0,9.99,red wine,south-african,new world,,,0.8636363636363636
+Porta 6 2015 Magnum,20.0,19.0,16.99,red wine,portuguese,old world,,,0.95
+Porta 6 2015/2016 Lisboa,1111.0,1063.0,8.99,red wine,portuguese,old world,,,0.9567956795679567
+Porta 6 Reserva 2015,199.0,188.0,11.99,red wine,portuguese,old world,,,0.9447236180904522
+Porta 6 Rosé 2017,52.0,49.0,8.99,rose wine,,,,,0.9423076923076923
+Porta 6 Vinho Verde,132.0,118.0,8.99,white wine,,,,,0.8939393939393939
+Pouilly Fumé Grebet 2015 Les Chants de Cri,3.0,3.0,15.99,white wine,,,,,1.0
+Pouilly Loche Les Mures Trou.,1.0,1.0,21.99,white wine,,,,,1.0
+Pouilly-Fuisse Domaine Dutron,2.0,2.0,24.99,white wine,french,old world,,burgundy,1.0
+Pouilly-Fuissé 'Les Vignes Blanches' 2015 Domaine Cordier,3.0,3.0,27.0,fine wine,french,old world,chardonnay,,1.0
+Pouilly-Fuissé 2016 Domaine Cordier,7.0,6.0,21.99,white wine,french,old world,chardonnay,,0.8571428571428571
+Prima Perla Grand Reserve Brut NV,7.0,5.0,13.99,white wine,french,old world,chardonnay,,0.7142857142857143
+Primitivo 2016 Natale Verga,61.0,49.0,7.99,red wine,italian,old world,,,0.8032786885245902
+Puligny Montrachet 1er Cru Champ Gains Chavy 2014,0.0,0.0,55.0,fine wine,french,old world,chardonnay,,
+Puligny-Montrachet 2013 Château de Puligny-Montrachet,0.0,0.0,50.0,fine wine,,,,,
+Quartz Reef Pinot Noir 2015 Central Otago,26.0,18.0,21.0,fine wine,new-zealand,new world,pinot noir,,0.6923076923076923
+Ragged Point Sauvignon Blanc 2017,52.0,40.0,8.99,white wine,new-zealand,new world,sauvignon blanc,,0.7692307692307693
+Ramey Ritchie Vineyard Chardonnay 2013 Russian River Valley,0.0,0.0,60.0,fine wine,,,chardonnay,california,
+Ramos Reserva 2015 Vinho Regional Alentejano,73.0,66.0,8.99,red wine,portuguese,old world,,,0.9041095890410958
+Ravenswood Lodi Zinfandel 2014,280.0,266.0,14.99,red wine,,,,california,0.95
+Reino de San Adrian Rioja Gran Reserva 2008,4.0,3.0,16.99,red wine,,,,,0.75
+Rezabal Txakoli 2017,1.0,1.0,11.99,white wine,,,,,1.0
+Rioja Blanco 2016 López de Haro,83.0,75.0,8.99,white wine,spanish,old world,,rioja,0.9036144578313253
+Rioja Blanco 2016 Muga,39.0,34.0,12.99,white wine,spanish,old world,,rioja,0.8717948717948718
+Rioja Crianza 2014 CVNE,120.0,105.0,9.99,red wine,spanish,old world,,rioja,0.875
+Rioja Gran Reserva 2007 Marqués de Riscal,10.0,9.0,32.0,fine wine,spanish,old world,tempranillo,rioja,0.9
+Rioja Gran Reserva 2008 Lagunilla,117.0,100.0,11.99,red wine,spanish,old world,tempranillo,rioja,0.8547008547008547
+Rioja Gran Reserva 2009 Viña Alarde,223.0,192.0,11.99,red wine,spanish,old world,,rioja,0.8609865470852018
+Rioja Gran Reserva 2009/2010 Marqués de Cáceres,30.0,30.0,21.99,red wine,spanish,old world,,rioja,1.0
+Rioja Lanzaga Compania de Vinos Telmo Rodriguez 2011,0.0,0.0,24.99,red wine,spanish,old world,,rioja,
+Rioja Reserva 2011 Lagunilla,139.0,122.0,9.99,red wine,spanish,old world,,rioja,0.8776978417266187
+Rioja Reserva 2011 Marqués de Cáceres,47.0,44.0,15.99,red wine,spanish,old world,tempranillo,rioja,0.9361702127659575
+Rioja Reserva 2012 Marqués de Riscal Magnum,16.0,16.0,34.99,red wine,spanish,old world,,rioja,1.0
+Rioja Reserva 2012 Marqués de Vargas,28.0,24.0,17.99,red wine,spanish,old world,tempranillo,rioja,0.8571428571428571
+Rioja Reserva 2012 Viña Alarde,354.0,298.0,9.99,red wine,spanish,old world,,rioja,0.8418079096045198
+Rioja Reserva 2013 Beronia,142.0,136.0,16.99,red wine,spanish,old world,,rioja,0.9577464788732394
+Rioja Reserva 2013 Marqués de Riscal,288.0,274.0,16.99,red wine,spanish,old world,tempranillo,rioja,0.9513888888888888
+Rioja Reserva 2013 Viña Eguía,450.0,394.0,9.99,red wine,spanish,old world,,rioja,0.8755555555555555
+Rioja Reserva 2013/14 CVNE,173.0,161.0,13.99,red wine,spanish,old world,,rioja,0.930635838150289
+Rioja Reserva Imperial 2014 CVNE,25.0,24.0,24.99,red wine,spanish,old world,,rioja,0.96
+Rioja Reserva Viña Ardanza 2007/2008 La Rioja Alta,112.0,109.0,25.99,red wine,spanish,old world,tempranillo,rioja,0.9732142857142857
+Rioja Reserva Viña Ardanza 2008 La Rioja Alta,4.0,3.0,49.99,red wine,spanish,old world,tempranillo,rioja,0.75
+"Roaring Meg Pinot Noir 2015 Mt Difficulty, Central Otago",37.0,33.0,19.99,red wine,new-zealand,new world,pinot noir,,0.8918918918918919
+Roda Rioja Reserva 2012,0.0,0.0,29.0,fine wine,,,,,
+Route 88 White Zinfandel 2015,10.0,8.0,8.49,rose wine,,,,,0.8
+Royal Tokaji 5 Puttonyos 2013 Hungary,16.0,15.0,24.0,white wine,,,,,0.9375
+Royal Tokaji Dry Tokaji 2015,27.0,21.0,11.99,white wine,,,,,0.7777777777777778
+Royal Tokaji Gold Label 2013,3.0,3.0,40.0,fine wine,,,,,1.0
+Royal Tokaji Late Harvest 2015,16.0,15.0,11.99,white wine,,,,,0.9375
+"Rully Rouge ""En Rosey"" 2015 Maison Chanzy",7.0,6.0,17.99,red wine,french,old world,pinot noir,,0.8571428571428571
+"Russian Jack Pinot Gris 2016, Marlborough",18.0,18.0,10.99,white wine,,,,,1.0
+Russian Jack Pinot Noir 2014 Martinborough Vineyards,28.0,25.0,13.99,red wine,new-zealand,new world,pinot noir,,0.8928571428571429
+Russian Jack Sauvignon Blanc 2016 Marlborough,186.0,164.0,10.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.8817204301075269
+Rustenberg John X Merriman 2015 Stellenbosch,68.0,63.0,17.99,red wine,south-african,new world,merlot,,0.9264705882352942
+Rustenberg Peter Barlow Cabernet Sauvignon 2011 Stellenbosch,2.0,2.0,35.0,fine wine,south-african,new world,,,1.0
+Rustenberg RM Nicholson 2016 Stellenbosch,89.0,83.0,13.49,red wine,south-african,new world,,,0.9325842696629213
+Rustenberg Sauvignon Blanc 2017 Western Cape,22.0,21.0,12.49,white wine,south-african,new world,,,0.9545454545454546
+Rustenberg Straw Wine 2015 Coastal Region,13.0,11.0,11.99,white wine,south-african,new world,,,0.8461538461538461
+Rymill Classic Cabernet 2014,2.0,2.0,19.99,red wine,,,,,1.0
+Rymill Classic Shiraz 2014,0.0,0.0,19.99,red wine,,,,,
+"S&R Douro Red, 2016",8.0,7.0,11.99,red wine,portuguese,old world,,,0.875
+Saint Clair Estate Selection Pinot Noir 2016 Marlborough,23.0,20.0,13.99,red wine,new-zealand,new world,pinot noir,marlborough wine,0.8695652173913043
+Saint Clair Estate Selection Sauvignon Blanc 2016 Marlborough,94.0,89.0,12.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9468085106382979
+Saint Clair Pioneer Block Chardonnay 2016 Marlborough,16.0,16.0,18.99,white wine,new-zealand,new world,chardonnay,marlborough wine,1.0
+Saint Clair Pioneer Block Pinot Noir 2015 Marlborough,59.0,58.0,21.99,red wine,new-zealand,new world,pinot noir,marlborough wine,0.9830508474576272
+Saint Clair Pioneer Block Sauvignon Blanc 2016 Marlborough,115.0,110.0,19.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9565217391304348
+Saint Clair Reserve Sauvignon Blanc 2016 Marlborough,25.0,24.0,24.99,fine wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.96
+Saint-Véran 2014 Les Vignerons des Grandes Vignes,24.0,18.0,12.99,white wine,french,old world,chardonnay,,0.75
+Saint-Véran 2016 Domaine Thibert Père et Fils,26.0,22.0,19.99,white wine,french,old world,chardonnay,,0.8461538461538461
+Saintsbury Chardonnay 2012 Carneros,17.0,17.0,22.99,white wine,,,chardonnay,,1.0
+Santa Rita 120 Cabernet Franc 2016 Central Valley,35.0,32.0,8.99,red wine,chilean,new world,,,0.9142857142857143
+Santa Rita 120 Carménère 2016 Central Valley,210.0,184.0,8.99,red wine,chilean,new world,,,0.8761904761904762
+Santa Rita 120 Merlot 2017 Central Valley,121.0,104.0,8.99,red wine,chilean,new world,merlot,,0.859504132231405
+Santa Rita 120 Sauvignon Blanc 2017 Central Valley,26.0,22.0,8.99,white wine,chilean,new world,sauvignon blanc,,0.8461538461538461
+Santa Rita 120 Viognier 2017 Central Valley,75.0,63.0,8.99,white wine,chilean,new world,,,0.84
+Santa Rita Medalla Real Cabernet Sauvignon 2014 Maipo Valley,74.0,68.0,11.99,red wine,chilean,new world,,,0.918918918918919
+Santa Rita Medalla Real Carmenère 2015 Colchagua Valley,128.0,124.0,11.99,red wine,chilean,new world,,,0.96875
+Santa Rita Medalla Real Chardonnay 2016 Leyda Valley,57.0,54.0,11.99,white wine,chilean,new world,,,0.9473684210526315
+Sassaiolo Rosso Piceno 2014 Monte Schiavo,41.0,33.0,8.99,red wine,italian,old world,,,0.8048780487804879
+Schild Estate Cabernet Sauvignon,10.0,8.0,14.99,red wine,,,,,0.8
+Schild Estate Merlot,3.0,3.0,14.99,red wine,,,,,1.0
+"Sexy Beast Cabernet 2015 Two Hands, McLaren Vale",19.0,18.0,21.99,red wine,australian,new world,,,0.9473684210526315
+Silver Ghost Cabernet Sauvignon 2016 Central Valley,146.0,130.0,6.49,red wine,chilean,new world,,,0.8904109589041096
+Silver Ghost Sauvignon Blanc 2017 Central Valley,182.0,157.0,6.49,white wine,chilean,new world,sauvignon blanc,,0.8626373626373627
+Soave Classico 2016 Inama,27.0,26.0,15.99,white wine,italian,old world,,,0.9629629629629629
+St Aubin 1er Cru Les Cortons 2015 Hubert Bouzereau,2.0,2.0,38.0,fine wine,french,old world,,,1.0
+Stella Alpina Pinot Grigio 2016 Alto Adige,49.0,44.0,12.99,white wine,italian,old world,,,0.8979591836734694
+Swartland Limited Release Mourvedre 2015,27.0,23.0,11.99,red wine,south-african,new world,,,0.8518518518518519
+Tarima Monastrell 2015 Alicante,39.0,35.0,8.99,red wine,spanish,old world,,,0.8974358974358975
+Taylor's Colhita Tawny Port 1966,2.0,2.0,150.0,fine wine,portuguese,old world,,,1.0
+Taylor's Vintage Port 1985,0.0,0.0,95.0,fine wine,portuguese,old world,,,
+Ten Minutes by Tractor Estate Pinot Noir 2015 Mornington Peninsular,8.0,4.0,46.0,fine wine,australian,new world,pinot noir,,0.5
+Ten Minutes by Tractor Wallis Chardonnay 2015 Mornington Peninsula,0.0,0.0,50.0,fine wine,australian,new world,,,
+Ten Minutes by Tractor Wallis Pinot Noir 2015 Mornington Peninsula,0.0,0.0,58.0,fine wine,australian,new world,pinot noir,,
+Tenacity Old Vine Shiraz 2016,34.0,30.0,14.99,red wine,australian,new world,,,0.8823529411764706
+Testimonio 2013/2014 Luigi Bosca,22.0,22.0,12.99,red wine,argentinian,new world,,,1.0
+The Astronomer Shiraz 2016 De Bortoli,90.0,80.0,6.99,red wine,australian,new world,,,0.8888888888888888
+The Chocolate Block 2014 Boekenhoutskloof,0.0,0.0,49.99,red wine,south-african,new world,,,
+"The Chocolate Block 2015 Boekenhoutskloof, Western Cape",41.0,37.0,25.0,fine wine,south-african,new world,,,0.9024390243902439
+The Cup And Rings Albariño Sobre Lias 2013/2014 Valedorras,16.0,14.0,12.99,white wine,spanish,old world,,,0.875
+The Cup And Rings Godello Sobre Lias 2015 Monterrai,10.0,7.0,12.99,white wine,spanish,old world,,,0.7
+The Guv'nor! 2016,186.0,166.0,8.99,red wine,spanish,old world,,,0.8924731182795699
+The King's Favour Sauvignon Blanc 2016 Marlborough,48.0,41.0,13.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.8541666666666666
+The King's Legacy Chardonnay 2016 Marlborough,18.0,14.0,13.99,white wine,new-zealand,new world,,marlborough wine,0.7777777777777778
+The Lay and Wheeler Case x6,0.0,0.0,161.99,fine wine,,,,chablis,
+The Ned Noble Sauvignon Blanc 2015 Half Bottle,31.0,29.0,14.99,white wine,new-zealand,new world,,marlborough wine,0.9354838709677419
+The Ned Pinot Grigio 2016/2017 Marlborough,178.0,166.0,10.99,white wine,new-zealand,new world,,marlborough wine,0.9325842696629213
+"The Ned Pinot Noir 2016 Southern Valleys, Marlborough",58.0,53.0,13.99,red wine,new-zealand,new world,,marlborough wine,0.9137931034482759
+"The Ned Rosé 2017 Waihopai River, Marlborough",100.0,93.0,11.99,rose wine,,,,,0.93
+The Ned Waihopai River Sauvignon Blanc 2016/2017 Marlborough,1266.0,1198.0,10.99,white wine,new-zealand,new world,,marlborough wine,0.9462875197472354
+Tomás Postigo 2014 Ribera del Duero,6.0,4.0,33.0,fine wine,spanish,old world,tempranillo,,0.6666666666666666
+"Torresilo 2015 Cillar de Silos, Ribera del Duero",6.0,6.0,33.0,fine wine,spanish,old world,tempranillo,,1.0
+Touraine Sauvignon 2016 Domaine Joel Delaunay,6.0,6.0,11.99,white wine,french,old world,sauvignon blanc,,1.0
+Tourrela Bordeaux 2014,37.0,23.0,9.99,red wine,,,,,0.6216216216216216
+Trebuchet Red 2016 Western Cape,30.0,24.0,8.99,red wine,south-african,new world,,,0.8
+Valle Antigua Chardonnay 2017,13.0,10.0,7.99,white wine,chilean,new world,chardonnay,,0.7692307692307693
+Valle Antigua Sauvignon Blanc 2017,11.0,9.0,7.99,white wine,chilean,new world,,,0.8181818181818182
+Vallée Des Pins Rosé 2016 Côteaux d'Aix en Provence,37.0,34.0,8.99,rose wine,french,old world,,,0.918918918918919
+Valpolicella Classico 2015/2016 Cantina di Negrar,62.0,54.0,9.99,red wine,italian,old world,,,0.8709677419354839
+Valpolicella Ripasso 2015 Villa Borghetti,96.0,88.0,13.99,red wine,italian,old world,,,0.9166666666666666
+Valpolicella Superiore Ripasso 2014 La Casetta,141.0,136.0,16.99,red wine,italian,old world,,,0.9645390070921985
+Vasse Felix Cabernet Sauvignon 2014,8.0,6.0,15.99,red wine,australian,new world,,,0.75
+Verdicchio dei Castelli di Jesi 2016 Monte Schiavo,29.0,24.0,8.99,white wine,italian,old world,,,0.8275862068965517
+Vereto Salice Salentino 2013 Agricole Vallone,20.0,17.0,11.99,red wine,,,,,0.85
+Villa Maria Cellar Selection Pinot Noir 2016 Marlborough,42.0,38.0,15.99,red wine,new-zealand,new world,,marlborough wine,0.9047619047619048
+Villa Maria Cellar Selection Sauvignon Blanc 2016 Marlborough,84.0,81.0,12.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9642857142857143
+Villa Maria Private Bin Gewürztraminer 2016 East Coast,44.0,35.0,10.99,white wine,new-zealand,new world,,,0.7954545454545454
+Villa Maria Private Bin Riesling 2016 Marlborough,59.0,53.0,10.49,white wine,new-zealand,new world,riesling,marlborough wine,0.8983050847457628
+Villa Maria Private Bin Sauvignon Blanc 2017/2016 Marlborough,576.0,562.0,10.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9756944444444444
+Villa Maria Reserve Sauvignon Blanc 2016 Marlborough,87.0,85.0,13.99,white wine,new-zealand,new world,sauvignon blanc,marlborough wine,0.9770114942528736
+Villemarin Picpoul de Pinet 2016 Côteaux du Languedoc,230.0,214.0,9.99,white wine,french,old world,,south of france,0.9304347826086956
+"Vin de Constance 2013 Klein Constantia, Constantia",12.0,12.0,56.0,fine wine,south-african,new world,,,1.0
+Vinalba Malbec Bonarda 2016,29.0,24.0,9.99,red wine,argentinian,new world,malbec,,0.8275862068965517
+Vinhas Do Silvado Tinto,9.0,7.0,7.99,red wine,portuguese,old world,,,0.7777777777777778
+Vinhos do Silvado Branco 2016,8.0,6.0,7.99,white wine,portuguese,old world,,,0.75
+Vire Clesse Pierre Ponnelle,3.0,2.0,15.99,white wine,french,old world,,burgundy,0.6666666666666666
+Viré-Clessé Vieilles Vignes 2016 Christophe Cordier,12.0,12.0,16.99,white wine,french,old world,chardonnay,,1.0
+Viñalba Fifty 50 2015 Uco Valley,78.0,74.0,12.99,red wine,argentinian,new world,malbec,,0.9487179487179487
+Viñalba Gran Reservado Malbec 2014 Mendoza,33.0,30.0,16.99,red wine,argentinian,new world,malbec,,0.9090909090909091
+Viñalba Malbec-Touriga Nacional Reserve 2015 Mendoza,58.0,52.0,12.99,red wine,argentinian,new world,malbec,,0.896551724137931
+Viñalba Reserve Malbec 2015 Mendoza,273.0,242.0,12.99,red wine,argentinian,new world,,,0.8864468864468864
+Viñalba Selección Torrontés 2016 Lujan de Cuyo,19.0,15.0,9.99,white wine,argentinian,new world,,,0.7894736842105263
+Vouvray Grande Année 1989 Marc Brédif,0.0,0.0,55.0,fine wine,french,old world,,,
+Vox Populi Bobal 2014 Utiel-Requena,57.0,50.0,10.99,red wine,spanish,old world,,,0.8771929824561403
+Waimea Estate Gewürztraminer 2016 Nelson,89.0,77.0,14.99,white wine,new-zealand,new world,,,0.8651685393258427
+Waimea Estate Grüner Veltliner 2016 Nelson,14.0,12.0,13.99,white wine,new-zealand,new world,,,0.8571428571428571
+Waimea Estate Sauvignon Blanc 2016 Nelson,109.0,98.0,12.99,white wine,new-zealand,new world,sauvignon blanc,,0.8990825688073395
+Wakefield Estate Chardonnay 2016 Clare Valley,18.0,16.0,11.99,white wine,australian,new world,,,0.8888888888888888
+Wakefield Estate Shiraz 2016 Clare Valley,144.0,137.0,11.99,red wine,australian,new world,,,0.9513888888888888
+Wakefield Jaraman Coonawarra Shiraz,3.0,3.0,16.99,red wine,,,,,1.0
+Whiz Bang Barossa Shiraz ,7.0,6.0,13.99,red wine,,,,,0.8571428571428571
+Winemaker Series Chardonnay,10.0,9.0,10.99,white wine,,,,,0.9
+Winemaker Series Shiraz 2016,16.0,15.0,11.99,red wine,australian,new world,,,0.9375
+Winemaker Series Swartland red 2016,18.0,16.0,12.99,red wine,south-african,new world,,,0.8888888888888888
+X de Larrivaux 2011,2.0,0.0,13.99,red wine,french,old world,merlot,,0.0
+Xanadu Exmoor Chardonnay,4.0,2.0,12.99,white wine,,,chardonnay,,0.5
+Yalumba Y-Series Cabernet Sauvignon 2014 South Australia,30.0,24.0,10.99,red wine,,,,,0.8
+Z de Thienpont 2012,0.0,0.0,9.99,red wine,,,,,
+Zingo Malbec Rosé 2017,1.0,1.0,9.99,rose wine,,,,,1.0
